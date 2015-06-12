@@ -12,57 +12,17 @@
 		return a>b ? -1 : a<b ? 1 : 0;
 	};
 
-	var loadData = function (url, cb) {
-		qwest.get(url, null, {
-			headers: {
-				'x-api-user': habitConfig.uid,
-				'x-api-key': habitConfig.key
-			}
-		})
-		.then(cb)
-		.catch(function (e, data) {
-			console.log(e);
-			console.log(data);
-		});
-	};
-
 	var LatestHabit = React.createClass({
 		render: function () {
 			var latestHabit = this.props.habits.concat(this.props.dailys).sort(byDate)[0];
+			// if (latestHabit) console.log(latestHabit.history[latestHabit.history.length-1].date);
 			if (!latestHabit) latestHabit = { text: 'Loading...' };
 			return (
-				<div>
-					Latest task completed: <em>{latestHabit.text}</em>
-				</div>
-			);
-		}
-	});
-
-	var HealthBar = React.createClass({
-		render: function () {
-			return (
-				<div>
-					HP: {this.props.health.toFixed(0)} / {this.props.max}
-				</div>
-			);
-		}
-	});
-
-	var ExpBar = React.createClass({
-		render: function () {
-			return (
-				<div>
-					EXP: {this.props.exp.toFixed(0)} / {this.props.max}
-				</div>
-			);
-		}
-	});
-
-	var ManaBar = React.createClass({
-		render: function () {
-			return (
-				<div>
-					MP: {this.props.mana.toFixed(0)} / {this.props.max}
+				<div className="habit-list">
+					Latest task completed:
+					<div className="habit">
+						{latestHabit.text}
+					</div>
 				</div>
 			);
 		}
@@ -71,9 +31,7 @@
 	var LevelIndicator = React.createClass({
 		render: function () {
 			return (
-				<div>
-					Lvl {this.props.level}
-				</div>
+				<span className="level">Lvl {this.props.level}</span>
 			);
 		}
 	});
@@ -81,14 +39,44 @@
 	var ProfileName = React.createClass({
 		render: function () {
 			return (
-				<div>
-					<span className="profile-name">{this.props.name}</span>
+				<span className="profile-name">{this.props.name}</span>
+			);
+		}
+	});
+
+	var StatBar = React.createClass({
+		render: function () {
+			var style = {width: ((this.props.statValue / this.props.max)*100).toFixed() + '%' };
+			var classes = "meter " + this.props.name;
+			return (
+				<div className="stat-bar">
+					<div className={classes} style={style}></div>
+					<span className="text">
+						{this.props.statValue.toFixed()} / {this.props.max}
+					</span>
 				</div>
 			);
 		}
 	});
 
 	var Habit = React.createClass({
+		loadData: function (url, cb) {
+			console.log('loading...');
+			qwest.get(url, null, {
+				headers: {
+					'x-api-user': habitConfig.uid,
+					'x-api-key': habitConfig.key
+				},
+				cache: false
+			})
+			.then(function (data) {
+				this.setState({ data: data });
+			}.bind(this))
+			.catch(function (e, data) {
+				console.log(e);
+				console.log(data);
+			});
+		},
 		getInitialState: function () {
 			return { 
 				data: {
@@ -112,26 +100,28 @@
 		},
 		componentDidMount: function () {
 			console.log('mounted');
-			loadData(this.props.url, function (data) {
-				this.setState({ data: data });
-			}.bind(this));
+			this.loadData(this.props.url);
+			// setInterval(function () { this.loadData(this.props.url); }.bind(this), this.props.interval);
 		},
 		render: function () {
 			return (
 				<div className="panel">
-					<ProfileName name={this.state.data.profile.name} />
-					<LevelIndicator level={this.state.data.stats.lvl} />
-					<HealthBar health={this.state.data.stats.hp} max={this.state.data.stats.maxHealth} />
-					<ExpBar exp={this.state.data.stats.exp} max={this.state.data.stats.toNextLevel} />
-					<ManaBar mana={this.state.data.stats.mp} max={this.state.data.stats.maxMP} />
+					<div className="profile-info">
+						<ProfileName name={this.state.data.profile.name} />
+						<LevelIndicator level={this.state.data.stats.lvl} />
+					</div>
+					<StatBar name="hp" statValue={this.state.data.stats.hp} max={this.state.data.stats.maxHealth} />
+					<StatBar name="exp" statValue={this.state.data.stats.exp} max={this.state.data.stats.toNextLevel} />
+					<StatBar name="mp" statValue={this.state.data.stats.mp} max={this.state.data.stats.maxMP} />
 					<LatestHabit habits={this.state.data.habits} dailys={this.state.data.dailys} />
 				</div>
 			);
 		}
 	});
 
+	// Render our parent component
 	React.render(
-		<Habit url="https://habitrpg.com:443/api/v2/user" />,
+		<Habit url="https://habitrpg.com:443/api/v2/user" interval={10000} />,
 		document.getElementById('habit-widget')
 	);
 })();
