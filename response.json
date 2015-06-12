@@ -1,1 +1,1982 @@
-{"_id":"db8d3db1-5d72-403d-9fac-4e5b1f81d698","__v":212,"migration":"20150601_tutorials.js","pushDevices":[],"rewards":[],"todos":[{"text":"Medical bill","challenge":{},"attribute":"str","priority":1,"value":-10.065641872820203,"tags":{},"notes":"","dateCreated":"2015-06-02T07:17:06.301Z","id":"47486a81-78c5-4ea3-ac6e-53c8eb3751d1","checklist":[],"collapseChecklist":false,"completed":false,"type":"todo"},{"text":"DEQ","challenge":{},"attribute":"str","priority":1,"value":-10.065641872820203,"tags":{},"notes":"","dateCreated":"2015-06-02T07:16:55.559Z","id":"08e49804-6a8e-41ea-ae70-6e8b4d7aef0f","checklist":[],"collapseChecklist":false,"completed":false,"type":"todo"},{"text":"Sort boxes","challenge":{},"attribute":"str","priority":1,"value":-198.3819673036112,"tags":{},"notes":"","dateCreated":"2015-03-30T18:35:04.611Z","id":"085b0226-1d72-40aa-983d-0cccae8fdf96","checklist":[],"collapseChecklist":false,"completed":false,"type":"todo"},{"text":"Clean kitchen floor","challenge":{},"attribute":"str","priority":1,"value":-198.3819673036112,"tags":{},"notes":"","dateCreated":"2015-03-30T18:34:27.791Z","id":"8cd90fda-b48d-42cc-a52f-0af4c6ef0bb0","checklist":[],"collapseChecklist":false,"completed":false,"type":"todo"},{"text":"Join HabitRPG (Check me off!)","dateCompleted":"2015-03-30T18:21:11.581Z","challenge":{},"attribute":"int","priority":1,"value":1,"tags":{},"notes":"You can either complete this To-Do, edit it, or remove it.","dateCreated":"2015-03-30T18:20:38.818Z","id":"4b639942-c087-42a3-8c4a-fe0c59c5b240","checklist":[],"collapseChecklist":false,"completed":true,"type":"todo"},{"text":"Pay bills","date":"2015-04-01T07:00:00.000Z","dateCompleted":"2015-04-01T21:02:48.943Z","challenge":{},"attribute":"str","priority":1,"value":-0.9726691785864936,"tags":{},"notes":"","dateCreated":"2015-03-30T18:49:11.398Z","id":"df0e3e31-67f9-4024-a4fe-afc9f8d9e5dd","checklist":[],"collapseChecklist":false,"completed":true,"type":"todo"},{"text":"Go to bank","dateCompleted":"2015-04-08T23:38:32.213Z","challenge":{},"attribute":"str","priority":1,"value":-8.771383837406706,"tags":{},"notes":"","dateCreated":"2015-03-30T18:37:30.188Z","id":"d8fc014b-870d-4026-96ce-24af4831c07d","checklist":[],"collapseChecklist":false,"completed":true,"type":"todo"},{"text":"Pay taxes","date":"2015-04-13T07:00:00.000Z","dateCompleted":"2015-04-14T05:29:58.170Z","challenge":{},"attribute":"str","priority":1,"value":1,"tags":{},"notes":"","dateCreated":"2015-04-13T16:15:22.533Z","id":"2d438a8b-ad4d-466b-be90-0d5516e64fe3","checklist":[],"collapseChecklist":false,"completed":true,"type":"todo"},{"text":"Clean bathtub","dateCompleted":"2015-04-17T20:41:42.640Z","challenge":{},"attribute":"str","priority":1,"value":-21.756112569471348,"tags":{},"notes":"","dateCreated":"2015-03-30T18:37:43.063Z","id":"267412a5-8216-4186-a88e-9fc5e0672858","checklist":[],"collapseChecklist":false,"completed":true,"type":"todo"},{"text":"Pay bills","date":"2015-05-01T07:00:00.000Z","dateCompleted":"2015-05-01T19:15:01.175Z","challenge":{},"attribute":"str","priority":1,"value":0.025956704627064786,"tags":{},"notes":"","dateCreated":"2015-05-01T02:30:58.401Z","id":"619142e1-0331-497c-aba5-7f44145c97a6","checklist":[],"collapseChecklist":false,"completed":true,"type":"todo"},{"text":"Call doctor","date":"2015-05-01T07:00:00.000Z","dateCompleted":"2015-05-01T19:38:02.139Z","challenge":{},"attribute":"str","priority":1,"value":0.025956704627064786,"tags":{},"notes":"","dateCreated":"2015-05-01T02:30:32.186Z","id":"091d3efb-03d5-4891-9638-053befc4b7ab","checklist":[],"collapseChecklist":false,"completed":true,"type":"todo"},{"text":"Write check","dateCompleted":"2015-06-02T20:55:58.463Z","challenge":{},"attribute":"str","priority":1,"value":1,"tags":{},"notes":"","dateCreated":"2015-06-02T07:16:47.578Z","id":"9f447fcd-293d-4898-9a10-63cbfb284ef0","checklist":[],"collapseChecklist":false,"completed":true,"type":"todo"},{"text":"Pay ticket","dateCompleted":"2015-06-03T05:15:56.668Z","challenge":{},"attribute":"str","priority":1,"value":1,"tags":{},"notes":"","dateCreated":"2015-06-02T07:16:51.418Z","id":"04afe6f9-947d-4760-ab01-0ba1e95c2e41","checklist":[],"collapseChecklist":false,"completed":true,"type":"todo"}],"dailys":[{"text":"Go to morning scrums","challenge":{},"attribute":"str","priority":1,"value":12.203956555482407,"tags":{},"notes":"","dateCreated":"2015-04-20T16:44:15.377Z","id":"b1698891-17ab-490e-938c-1e1066b96c6e","streak":2,"checklist":[],"collapseChecklist":false,"repeat":{"su":false,"s":false,"f":true,"th":true,"w":true,"t":true,"m":true},"completed":false,"history":[{"date":"2015-04-21T15:18:53.046Z","value":4.354045894657689},{"date":"2015-05-01T15:39:31.903Z","value":11.053513319676894},{"date":1433211167311,"value":9.116052837512532},{"value":9.907728216451066,"date":1433229405299},{"value":10.683504603453482,"date":1433469593832},{"date":1433653477493,"value":11.4440110761846},{"value":11.4440110761846,"date":1433780509308},{"date":1433877717158,"value":10.698182168249517},{"value":11.458402652588939,"date":1433955242533},{"date":1434062464490,"value":12.203956555482407}],"type":"daily"},{"text":"Go to gym","challenge":{},"attribute":"str","priority":1,"value":18.640564917453474,"tags":{"19aa777f-2554-4e7e-85a6-a34f02b436b8":true},"notes":"","dateCreated":"2015-03-30T18:35:51.407Z","id":"31e50a2c-808f-45fe-9643-578bcaa8fb7b","streak":0,"checklist":[],"collapseChecklist":false,"repeat":{"su":true,"s":true,"f":true,"th":true,"w":true,"t":true,"m":true},"completed":false,"history":[{"date":"2015-03-31T17:46:50.521Z","value":1},{"date":"2015-04-01T14:28:49.071Z","value":12.31569519390748},{"date":"2015-05-01T15:39:31.903Z","value":24.63342659702498},{"date":1433211167313,"value":20.41611679181641},{"value":19.82348036334299,"date":1433229405303},{"value":18.61072022044829,"date":1433469593837},{"date":1433653477514,"value":17.35937171325693},{"value":18.000296345857375,"date":1433780509309},{"date":1433877717159,"value":18.630780376787616},{"value":19.2511598403881,"date":1433955242534},{"date":1434062464493,"value":18.640564917453474}],"type":"daily"},{"text":"Write code","challenge":{},"attribute":"str","priority":1,"value":20.920381272471833,"tags":{},"notes":"","dateCreated":"2015-03-30T18:34:20.619Z","id":"52443015-a92f-4270-b470-5c5050b281ce","streak":2,"checklist":[],"collapseChecklist":false,"repeat":{"su":false,"s":false,"f":true,"th":true,"w":true,"t":true,"m":true},"completed":false,"history":[{"date":"2015-03-31T17:46:50.524Z","value":-1},{"date":"2015-04-01T14:28:49.071Z","value":8.377998349421699},{"date":"2015-05-01T15:39:31.903Z","value":20.041056909241476},{"date":1433211167316,"value":18.478105998780435},{"value":19.1009173671469,"date":1433229405303},{"value":19.713867639603986,"date":1433469593838},{"date":1433653477514,"value":20.317265405767078},{"value":20.317265405767078,"date":1433780509310},{"date":1433877717161,"value":19.723125854577148},{"value":20.32638048351378,"date":1433955242534},{"date":1434062464493,"value":20.920381272471833}],"type":"daily"},{"text":"Stretch/ROM","challenge":{},"attribute":"str","priority":1,"value":17.713458374076918,"tags":{"19aa777f-2554-4e7e-85a6-a34f02b436b8":true},"notes":"","dateCreated":"2015-03-30T18:32:35.315Z","id":"d71f4ef3-787f-431f-a430-57ab31d2ebb2","streak":0,"checklist":[],"collapseChecklist":false,"repeat":{"su":true,"s":true,"f":true,"th":true,"w":true,"t":true,"m":true},"completed":false,"history":[{"date":"2015-03-31T17:46:50.524Z","value":1},{"date":"2015-04-01T14:28:49.071Z","value":12.31569519390748},{"date":"2015-05-01T15:39:31.904Z","value":22.64648322064605},{"date":1433211167319,"value":18.924712397323958},{"value":19.54043661203339,"date":1433229405303},{"value":18.318779068854134,"date":1433469593840},{"date":1433653477515,"value":18.944138474358013},{"value":19.55955625545339,"date":1433780509310},{"date":1433877717163,"value":18.953767741453223},{"value":18.338501799187483,"date":1433955242537},{"date":1434062464495,"value":17.713458374076918}],"type":"daily"},{"text":"Eat vegetables","challenge":{},"attribute":"str","priority":1,"value":23.932994874630555,"tags":{},"notes":"","dateCreated":"2015-03-30T18:30:47.858Z","id":"18ee747e-1a47-495e-b067-315680d1f5bf","streak":5,"checklist":[],"collapseChecklist":false,"repeat":{"su":true,"s":true,"f":true,"th":true,"w":true,"t":true,"m":true},"completed":false,"history":[{"date":"2015-03-31T17:46:50.525Z","value":1},{"date":"2015-04-01T14:28:49.072Z","value":12.562986163594042},{"date":"2015-05-01T15:39:31.904Z","value":25.282312802688434},{"date":1433211167322,"value":21.610184943408502},{"value":22.18999460540007,"date":1433229405303},{"value":21.030375281416934,"date":1433469593842},{"date":1433653477515,"value":21.613756226664282},{"value":22.19356588865585,"date":1433780509310},{"date":1433877717163,"value":22.77337555064742},{"value":23.353185212638987,"date":1433955242537},{"date":1434062464495,"value":23.932994874630555}],"type":"daily"},{"text":"Sleep","challenge":{},"attribute":"str","priority":1,"value":31.726342771810465,"tags":{},"notes":"Get at least 7 hours","dateCreated":"2015-03-30T18:29:43.217Z","id":"c423302c-a2e3-49ea-b967-4852c71fae02","streak":2,"checklist":[],"collapseChecklist":false,"repeat":{"su":true,"s":true,"f":true,"th":true,"w":true,"t":true,"m":true},"completed":false,"history":[{"date":"2015-03-31T17:46:50.525Z","value":1},{"date":"2015-04-01T14:28:49.072Z","value":11.701494074556498},{"date":"2015-05-01T15:39:31.905Z","value":24.729972850445545},{"date":1433211167322,"value":28.827294461852624},{"value":29.407104123844192,"date":1433229405304},{"value":29.98691378583576,"date":1433469593843},{"date":1433653477515,"value":30.56672344782733},{"value":31.146533109818897,"date":1433780509310},{"date":1433877717165,"value":30.56672344782733},{"value":31.146533109818897,"date":1433955242537},{"date":1434062464495,"value":31.726342771810465}],"type":"daily"},{"text":"Brush teeth","challenge":{},"attribute":"str","priority":1,"value":24.87247375136259,"tags":{},"notes":"","dateCreated":"2015-03-30T18:29:13.101Z","id":"a156d74f-c2d1-413d-aeeb-bf22cb3602a3","streak":15,"checklist":[],"collapseChecklist":false,"repeat":{"su":true,"s":true,"f":true,"th":true,"w":true,"t":true,"m":true},"completed":false,"history":[{"date":"2015-03-31T17:46:50.525Z","value":1},{"date":"2015-04-01T14:28:49.072Z","value":5.798707567287934},{"date":"2015-05-01T15:39:31.905Z","value":16.311207347705174},{"date":1433211167322,"value":20.80688417812262},{"value":21.39361577941318,"date":1433229405304},{"value":21.97342544140475,"date":1433469593843},{"date":1433653477515,"value":22.553235103396318},{"value":23.133044765387886,"date":1433780509311},{"date":1433877717165,"value":23.712854427379455},{"value":24.292664089371023,"date":1433955242538},{"date":1434062464495,"value":24.87247375136259}],"type":"daily"},{"text":"Do dishes","challenge":{},"attribute":"str","priority":1,"value":-5.540097165298098,"tags":{},"notes":"","dateCreated":"2015-03-30T18:26:26.108Z","id":"6729e9b8-2087-464e-9956-1cc5c382f31a","streak":2,"checklist":[],"collapseChecklist":false,"repeat":{"su":true,"s":true,"f":true,"th":true,"w":true,"t":true,"m":true},"completed":false,"history":[{"date":"2015-03-31T17:46:50.526Z","value":-1},{"date":"2015-04-01T14:28:49.072Z","value":1.984965082593056},{"date":"2015-05-01T15:39:31.905Z","value":6.241349856230556},{"date":1433211167325,"value":-4.553231050528472},{"value":-3.4294723612183855,"date":1433229405304},{"value":-5.644172216257062,"date":1433469593845},{"date":1433653477516,"value":-4.488554518800542},{"value":-6.765071833496423,"date":1433780509314},{"date":1433877717167,"value":-7.954364426320364},{"value":-6.728268663361258,"date":1433955242538},{"date":1434062464496,"value":-5.540097165298098}],"type":"daily"},{"text":"Take medication","challenge":{},"attribute":"str","priority":1,"value":35.47754327867076,"tags":{},"notes":"","dateCreated":"2015-03-30T18:22:01.384Z","id":"97dc4e29-e1f5-4530-914a-08b71784deed","streak":27,"checklist":[],"collapseChecklist":false,"repeat":{"su":true,"s":true,"f":true,"th":true,"w":true,"t":true,"m":true},"completed":false,"history":[{"date":"2015-03-31T17:46:50.527Z","value":1},{"date":"2015-04-01T14:28:49.073Z","value":12.562986163594042},{"date":"2015-05-01T15:39:31.906Z","value":26.78039834879723},{"date":1433211167326,"value":31.41887564472978},{"value":31.99868530672135,"date":1433229405305},{"value":32.57849496871292,"date":1433469593846},{"date":1433653477516,"value":33.158304630704485},{"value":33.738114292696054,"date":1433780509315},{"date":1433877717167,"value":34.31792395468762},{"value":34.89773361667919,"date":1433955242538},{"date":1434062464496,"value":35.47754327867076}],"type":"daily"}],"habits":[{"text":"Write code (personal)","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-04-26T16:57:54.171Z","id":"584c1c35-9a21-4aa3-b810-d0144d434e14","down":false,"up":true,"history":[{"value":2.386509196317869,"date":"2015-04-26T16:57:56.332Z"},{"date":1430542070333,"value":1.9549754086262472},{"date":1430634630853,"value":2.416505486153233},{"date":1430860063444,"value":1.5887645181862937},{"date":1430979412066,"value":1.7742315730348772},{"value":1.6979441038645424,"date":1431406074330},{"value":1.9623660130663714,"date":1433211199282}],"type":"habit"},{"text":"Grocery Shopping","challenge":{},"attribute":"str","priority":1,"value":0.07772588063971056,"tags":{},"notes":"","dateCreated":"2015-04-03T19:28:41.881Z","id":"55661cbc-e949-4f9b-98bc-99b5775da77c","down":false,"up":true,"history":[{"value":1.736398942439476,"date":"2015-04-03T19:28:44.560Z"},{"value":1.6675473129087912,"date":"2015-05-01T02:29:54.964Z"},{"value":1,"date":1433278551162},{"value":1.243614090235369,"date":1433653517589}],"type":"habit"},{"text":"Do dishes","challenge":{},"attribute":"str","priority":1,"value":12.07806486063336,"tags":{},"notes":"","dateCreated":"2015-03-31T20:52:21.534Z","id":"551cb948-3485-4db7-b108-df1d91c870e9","down":true,"up":true,"history":[{"date":"2015-03-31T20:52:24.003Z","value":1},{"date":1430517194158,"value":9.789142504241076},{"date":1430634626324,"value":11.330054806082767},{"value":12.07806486063336,"date":1433917742639}],"type":"habit"},{"text":"Don't eat out","challenge":{},"attribute":"str","priority":1,"value":11.330149142506757,"tags":{},"notes":"","dateCreated":"2015-03-31T19:29:56.200Z","id":"f913f7e4-3b85-4625-b334-561b64da853d","down":true,"up":true,"history":[{"value":1,"date":"2015-03-31T20:51:57.912Z"},{"value":10.56736451642928,"date":1433211348583},{"value":9.789234924236876,"date":1433469615624},{"value":10.56737050169566,"date":1433653523542},{"value":11.330143612741878,"date":1433803736598},{"value":10.567376141702809,"date":1433888397973},{"value":11.330149142506757,"date":1433917739541}],"type":"habit"},{"text":"Apartment hunt (10+ mins)","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-03-30T18:50:00.628Z","id":"d33b0edc-9255-42eb-81f9-46dfe24bffa9","down":false,"up":true,"history":[{"date":"2015-03-31T03:27:52.938Z","value":1},{"value":1.48726896031426,"date":1431406075785}],"type":"habit"},{"text":"Go to bed before 11","challenge":{},"attribute":"str","priority":1,"value":-7.958570721954075,"tags":{},"notes":"","dateCreated":"2015-03-30T18:46:37.262Z","id":"dbee87ea-a49f-4f34-8927-773a6b253e0c","down":true,"up":true,"history":[{"date":"2015-04-01T06:10:55.871Z","value":-2.139476217974206},{"date":1430455889267,"value":-6.732345227957342},{"date":1430634633367,"value":-7.958572059906461},{"value":-9.225254384418857,"date":1431406081756},{"value":-7.958570721954075,"date":1432414351360}],"type":"habit"},{"text":"Teach BJJ","challenge":{},"attribute":"str","priority":1,"value":0.25,"tags":{"19aa777f-2554-4e7e-85a6-a34f02b436b8":true},"notes":"","dateCreated":"2015-03-30T18:45:57.067Z","id":"93822a43-9f43-49bc-9912-def057606473","down":false,"up":true,"history":[{"date":"2015-03-31T03:03:03.722Z","value":1},{"date":1430542081708,"value":1.0967934954782914},{"value":1,"date":1431406085193},{"value":1,"date":1432414344941},{"value":1,"date":1433917746059}],"type":"habit"},{"text":"Drill BJJ","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{"19aa777f-2554-4e7e-85a6-a34f02b436b8":true},"notes":"45 mins+","dateCreated":"2015-03-30T18:26:21.062Z","id":"6858833e-1e38-4820-b867-d2af04e3bf97","down":false,"up":true,"history":[{"date":"2015-03-31T03:02:52.727Z","value":1},{"date":1430887741723,"value":1},{"date":1430979419512,"value":1.48726896031426},{"value":1,"date":1432272484532}],"type":"habit"},{"text":"Work out","challenge":{},"attribute":"str","priority":1,"value":0.25,"tags":{"19aa777f-2554-4e7e-85a6-a34f02b436b8":true},"notes":"45+ mins","dateCreated":"2015-03-30T18:28:39.521Z","id":"de562a50-797a-4bba-9783-27b1d981dbc4","down":false,"up":true,"history":[{"date":"2015-03-31T03:02:53.830Z","value":1},{"date":1430887745187,"value":1},{"date":1430979420716,"value":1.48726896031426},{"value":1.3623344674450577,"date":1431406086318},{"value":1.3318939504685519,"date":1431660691434},{"value":1,"date":1433890946097}],"type":"habit"},{"text":"BJJ class","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{"19aa777f-2554-4e7e-85a6-a34f02b436b8":true},"notes":"","dateCreated":"2015-03-30T18:20:38.808Z","id":"b79cc092-c9e8-41c4-b5fa-6ec75520e423","down":false,"up":true,"history":[{"date":"2015-04-01T01:09:28.713Z","value":1.5515319228643416},{"date":1430447404525,"value":1.7919368140792185},{"date":1430634645335,"value":2.1699252700496503},{"date":1430887750945,"value":1.528676114677093},{"value":1,"date":1431660690348},{"value":2.2122482406699344,"date":1432272488233}],"type":"habit"},{"text":"Get massage","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-03-30T18:36:04.589Z","id":"b546adf8-6c52-4520-9043-d0fdf6ab3d18","down":false,"up":true,"history":[{"date":1427899412003,"value":1},{"value":1,"date":1429133123550},{"date":1430256982610,"value":1},{"value":1,"date":1431451692879},{"value":1.48726896031426,"date":1431641601574}],"type":"habit"},{"text":"Tango","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-03-30T18:36:24.050Z","id":"80488f43-0f27-4439-b608-31458fb86089","down":false,"up":true,"history":[{"value":1,"date":1428388224112},{"value":1,"date":1428989413044},{"value":1,"date":1429592791725},{"date":1430201616648,"value":1},{"value":1,"date":1431406088465}],"type":"habit"},{"text":"Laundry load","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-03-30T18:33:49.408Z","id":"7193248f-fb4d-4c87-bb2b-bcedc9af2f58","down":false,"up":true,"history":[{"date":"2015-03-31T23:08:16.210Z","value":1},{"value":1.9747,"date":1431641604032},{"value":2.4438611209770964,"date":1432272495442}],"type":"habit"},{"text":"Clean apartment","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-03-30T18:37:51.097Z","id":"95092bcc-4a98-47d8-b229-9868c27537d0","down":false,"up":true,"history":[{"value":1,"date":1429037186561},{"value":1.243614090235369,"date":1429211922915},{"value":1.6059991759714958,"date":1429303308617}],"type":"habit"},{"text":"Take a walk (10 mins+)","challenge":{},"attribute":"str","priority":1,"value":0.3486970197064776,"tags":{},"notes":"","dateCreated":"2015-03-30T18:20:38.809Z","id":"bcdf54be-f407-4ee6-a878-b6e053c5fcb5","down":false,"up":true,"history":[{"value":1.48726896031426,"date":"2015-03-31T03:03:12.507Z"},{"value":1.6324235410152603,"date":"2015-04-03T19:28:25.692Z"},{"value":2.0496429838955237,"date":"2015-05-01T02:30:23.334Z"},{"value":1.1218019312959666,"date":1433211356228},{"value":1.2732895481715534,"date":1433469627752},{"value":1.620462761688813,"date":1433653543628},{"value":1.3947880788259104,"date":1433880786104}],"type":"habit"},{"text":"Floss","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-03-30T18:35:13.543Z","id":"75d48bc8-cecd-4cae-819f-6b664a6e1024","down":false,"up":true,"history":[],"type":"habit"},{"text":"Send a message on OkCupid","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-03-30T18:48:22.770Z","id":"455d6a81-226a-4029-bd8b-97494970fcf2","down":false,"up":true,"history":[{"date":"2015-03-31T23:53:28.102Z","value":1},{"value":1,"date":1431451696390},{"value":1.48726896031426,"date":1431641610830},{"value":1.3623344674450577,"date":1432272504330},{"value":3.241143938090821,"date":1432414326727},{"value":2.7449088943724256,"date":1433211360702}],"type":"habit"},{"text":"Let food go bad","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-03-30T18:33:12.742Z","id":"40747502-f6a2-488e-a09e-8431619c0238","down":true,"up":false,"history":[],"type":"habit"},{"text":"Eat sugar","challenge":{},"attribute":"str","priority":1,"value":-2.6234809624122786,"tags":{},"notes":"","dateCreated":"2015-03-30T18:20:38.808Z","id":"06be8e30-df6f-4507-ad6c-056aa073045d","down":true,"up":true,"history":[{"date":"2015-03-30T18:25:10.868Z","value":-0.26337236989928314},{"value":-1.5539432563724036,"date":1430979434584},{"value":-0.5133191380334863,"date":1431406095827},{"value":-1.553942737300144,"date":1431641613455},{"value":-2.6234816279789492,"date":1432272508596},{"value":-3.7236010179808376,"date":1433653549511},{"value":-2.6234809624122786,"date":1433880788863}],"type":"habit"},{"text":"Drink alcohol","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-03-30T18:51:05.390Z","id":"f0b4f1fa-3bc0-4777-ab45-3aa6fc15c042","down":true,"up":false,"history":[{"value":-1.026657310999762,"date":1428732370101},{"date":1430455834023,"value":-2.081442996376489},{"value":-1.026657310999762,"date":1430979435607}],"type":"habit"},{"text":"Drink >2 cups of coffee","challenge":{},"attribute":"str","priority":1,"value":0,"tags":{},"notes":"","dateCreated":"2015-03-30T18:31:19.866Z","id":"f41bb343-e459-40c7-9ccf-a8a0edca4054","down":true,"up":false,"history":[{"value":-1.026657310999762,"date":1429650335804},{"date":1430603322965,"value":-1.026657310999762},{"value":-1.026657310999762,"date":1432414323059}],"type":"habit"}],"inbox":{"optOut":false,"messages":{},"blocks":[],"newMessages":0},"challenges":[],"tags":[{"name":"morning","id":"63d4f07d-2424-4c40-a8d3-07c0d1d150fd"},{"name":"afternoon","id":"fdb3eee3-9a41-4d5e-9e2f-8d785624e25e"},{"name":"evening","id":"cbdf8680-f041-433b-9b3d-d46695b197b5"},{"name":"training","id":"19aa777f-2554-4e7e-85a6-a34f02b436b8"}],"stats":{"training":{"con":0,"str":0,"per":0,"int":0},"buffs":{"shinySeed":false,"spookDust":false,"snowball":false,"streaks":false,"stealth":0,"con":0,"per":0,"int":0,"str":0},"per":2,"int":3,"con":3,"str":2,"points":16,"class":"wizard","lvl":26,"gp":459.94321589332657,"exp":304.56684348788883,"mp":134,"hp":43.550328603524925,"toNextLevel":570,"maxHealth":50,"maxMP":134},"profile":{"name":"lilactown"},"preferences":{"language":"en","timezoneOffset":420,"costume":false,"emailNotifications":{"weeklyRecaps":true,"importantAnnouncements":true,"invitedQuest":true,"questStarted":true,"invitedGuild":true,"invitedParty":true,"giftedSubscription":true,"giftedGems":true,"wonChallenge":true,"kickedGroup":true,"newPM":true,"unsubscribeFromAll":false},"webhooks":{},"displayInviteToPartyWhenPartyIs1":true,"toolbarCollapsed":false,"advancedCollapsed":false,"tagsCollapsed":false,"dailyDueDefaultView":false,"newTaskEdit":false,"disableClasses":false,"stickyHeader":true,"sleep":false,"dateFormat":"MM/dd/yyyy","allocationMode":"flat","sound":"off","shirt":"black","skin":"f5a76e","hideHeader":false,"hair":{"flower":0,"mustache":0,"beard":0,"bangs":3,"base":0,"color":"brown"},"size":"slim","dayStart":0},"party":{"quest":{"key":null,"completed":"","progress":{"collect":{},"down":0,"up":0}},"orderAscending":"ascending","order":"level"},"newMessages":{"b0664c72-407e-4ab2-bc1a-27c8ca94357f":{"value":true,"name":"Ghostbusters"}},"lastCron":"2015-06-11T22:41:04.481Z","items":{"currentPet":"Wolf-Desert","currentMount":"Dragon-Shade","lastDrop":{"count":0,"date":"2015-06-10T22:17:38.245Z"},"quests":{"atom1":1},"mounts":{"Dragon-Shade":true},"food":{"Fish":3,"Chocolate":6,"Milk":5,"Honey":3,"Strawberry":4,"CottonCandyBlue":4,"CottonCandyPink":5,"Potatoe":1,"RottenMeat":3,"Meat":1},"hatchingPotions":{"Desert":4,"Shade":0,"CottonCandyBlue":0,"Red":2,"CottonCandyPink":1,"White":2,"Zombie":2,"Skeleton":3,"Base":1,"Golden":1},"eggs":{"Wolf":3,"Dragon":2,"LionCub":4,"PandaCub":2,"Fox":2,"BearCub":5,"Rat":2,"TigerCub":4,"Cactus":4,"Slime":3,"Seahorse":3,"Sheep":3,"Gryphon":3},"pets":{"Dragon-Shade":-1,"PandaCub-Red":5,"Wolf-Desert":10,"Rat-CottonCandyBlue":5,"Fox-Desert":5,"LionCub-Red":5,"BearCub-Shade":5,"Wolf-CottonCandyPink":10,"Fox-Shade":5,"Wolf-White":5},"special":{"nyeReceived":[],"valentineReceived":[],"shinySeed":0,"spookDust":0,"snowball":0},"gear":{"costume":{"headAccessory":"headAccessory_special_spring2015Warrior","shield":"shield_base_0","head":"head_base_0","armor":"armor_base_0"},"equipped":{"weapon":"weapon_special_spring2015Mage","headAccessory":"headAccessory_special_spring2015Mage","shield":"shield_base_0","head":"head_special_spring2015Mage","armor":"armor_special_spring2015Mage"},"owned":{"weapon_warrior_0":true,"weapon_warrior_1":true,"armor_warrior_1":true,"head_warrior_1":true,"shield_warrior_1":true,"weapon_special_spring2015Warrior":true,"headAccessory_special_spring2015Warrior":true,"weapon_wizard_0":true,"weapon_special_spring2015Mage":true,"head_special_spring2015Mage":true,"armor_special_spring2015Mage":true,"headAccessory_special_spring2015Mage":true}}},"invitations":{"guilds":[]},"history":{"todos":[{"date":"2015-03-31T17:46:50.512Z","value":-4},{"date":"2015-04-01T14:28:49.059Z","value":-37.95057381135892},{"date":"2015-05-01T15:39:31.888Z","value":-159.18754212384135},{"value":-296.0535964954163,"date":1433211167299},{"date":1433229405291,"value":-302.76942240712503},{"value":-318.25298763979663,"date":1433469593819},{"date":1433653477484,"value":-335.95542257074305},{"value":-353.90154252546523,"date":1433780509298},{"date":1433877717141,"value":-362.9749276869714},{"value":-372.1206138382378,"date":1433955242524},{"date":1434062464481,"value":-381.3431393581442}],"exp":[{"date":"2015-03-31T17:46:50.512Z","value":72},{"date":"2015-04-01T14:28:49.059Z","value":1843.5797619047617},{"date":"2015-05-01T15:39:31.888Z","value":6152.05836535972},{"value":7472.88942413305,"date":1433211167299},{"date":1433229405291,"value":7622.88942413305},{"value":7731.88942413305,"date":1433469593819},{"date":1433653477484,"value":7820.88942413305},{"value":7907.88942413305,"date":1433780509298},{"date":1433877717141,"value":7958.88942413305},{"value":8233.56684348789,"date":1433955242524},{"date":1434062464481,"value":8424.56684348789}]},"flags":{"partyEnabled":true,"armoireEmpty":false,"armoireOpened":false,"armoireEnabled":false,"welcomed":true,"cronCount":54,"communityGuidelinesAccepted":true,"lastWeeklyRecap":"2015-06-11T22:47:38.963Z","weeklyRecapEmailsPhase":0,"recaptureEmailsPhase":2,"levelDrops":{"atom1":true},"freeRebirth":false,"rebirthEnabled":false,"classSelected":true,"rewrite":true,"newStuff":false,"itemsEnabled":true,"dropsEnabled":true,"tour":{"equipment":-2,"hall":-2,"mounts":-2,"pets":-2,"market":-2,"challenges":-2,"guilds":-1,"party":-2,"tavern":-2,"stats":-2,"classes":-2,"intro":-2},"showTour":true,"customizationsNotification":true},"purchased":{"plan":{"consecutive":{"trinkets":0,"gemCapExtra":0,"offset":0,"count":0},"mysteryItems":[],"gemsBought":0,"extraMonths":0},"txnCount":0,"background":{},"shirt":{},"hair":{},"skin":{},"ads":false},"filters":{},"balance":0,"contributor":{},"backer":{},"auth":{"timestamps":{"loggedin":"2015-06-11T22:41:04.483Z","created":"2015-03-30T18:20:38.787Z"},"local":{"username":"lilactown","email":"will@willacton.com","salt":"116ca39a57","hashed_password":"4d71ab76cba4880a9888fc61284a850a423bd1b0"}},"achievements":{"perfect":23,"shinySeed":1,"quests":{"gryphon":1,"sheep":1,"dilatory_derby":1,"slime":1,"rat":1},"streak":2,"challenges":[]},"_v":8,"id":"db8d3db1-5d72-403d-9fac-4e5b1f81d698"}
+{
+  "_id": "db8d3db1-5d72-403d-9fac-4e5b1f81d698",
+  "__v": 212,
+  "migration": "20150601_tutorials.js",
+  "pushDevices": [],
+  "rewards": [],
+  "todos": [
+    {
+      "text": "Medical bill",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": -10.065641872820203,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-06-02T07:17:06.301Z",
+      "id": "47486a81-78c5-4ea3-ac6e-53c8eb3751d1",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": false,
+      "type": "todo"
+    },
+    {
+      "text": "DEQ",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": -10.065641872820203,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-06-02T07:16:55.559Z",
+      "id": "08e49804-6a8e-41ea-ae70-6e8b4d7aef0f",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": false,
+      "type": "todo"
+    },
+    {
+      "text": "Sort boxes",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": -198.3819673036112,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:35:04.611Z",
+      "id": "085b0226-1d72-40aa-983d-0cccae8fdf96",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": false,
+      "type": "todo"
+    },
+    {
+      "text": "Clean kitchen floor",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": -198.3819673036112,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:34:27.791Z",
+      "id": "8cd90fda-b48d-42cc-a52f-0af4c6ef0bb0",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": false,
+      "type": "todo"
+    },
+    {
+      "text": "Join HabitRPG (Check me off!)",
+      "dateCompleted": "2015-03-30T18:21:11.581Z",
+      "challenge": {},
+      "attribute": "int",
+      "priority": 1,
+      "value": 1,
+      "tags": {},
+      "notes": "You can either complete this To-Do, edit it, or remove it.",
+      "dateCreated": "2015-03-30T18:20:38.818Z",
+      "id": "4b639942-c087-42a3-8c4a-fe0c59c5b240",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": true,
+      "type": "todo"
+    },
+    {
+      "text": "Pay bills",
+      "date": "2015-04-01T07:00:00.000Z",
+      "dateCompleted": "2015-04-01T21:02:48.943Z",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": -0.9726691785864936,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:49:11.398Z",
+      "id": "df0e3e31-67f9-4024-a4fe-afc9f8d9e5dd",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": true,
+      "type": "todo"
+    },
+    {
+      "text": "Go to bank",
+      "dateCompleted": "2015-04-08T23:38:32.213Z",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": -8.771383837406706,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:37:30.188Z",
+      "id": "d8fc014b-870d-4026-96ce-24af4831c07d",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": true,
+      "type": "todo"
+    },
+    {
+      "text": "Pay taxes",
+      "date": "2015-04-13T07:00:00.000Z",
+      "dateCompleted": "2015-04-14T05:29:58.170Z",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 1,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-04-13T16:15:22.533Z",
+      "id": "2d438a8b-ad4d-466b-be90-0d5516e64fe3",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": true,
+      "type": "todo"
+    },
+    {
+      "text": "Clean bathtub",
+      "dateCompleted": "2015-04-17T20:41:42.640Z",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": -21.756112569471348,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:37:43.063Z",
+      "id": "267412a5-8216-4186-a88e-9fc5e0672858",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": true,
+      "type": "todo"
+    },
+    {
+      "text": "Pay bills",
+      "date": "2015-05-01T07:00:00.000Z",
+      "dateCompleted": "2015-05-01T19:15:01.175Z",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0.025956704627064786,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-05-01T02:30:58.401Z",
+      "id": "619142e1-0331-497c-aba5-7f44145c97a6",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": true,
+      "type": "todo"
+    },
+    {
+      "text": "Call doctor",
+      "date": "2015-05-01T07:00:00.000Z",
+      "dateCompleted": "2015-05-01T19:38:02.139Z",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0.025956704627064786,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-05-01T02:30:32.186Z",
+      "id": "091d3efb-03d5-4891-9638-053befc4b7ab",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": true,
+      "type": "todo"
+    },
+    {
+      "text": "Write check",
+      "dateCompleted": "2015-06-02T20:55:58.463Z",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 1,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-06-02T07:16:47.578Z",
+      "id": "9f447fcd-293d-4898-9a10-63cbfb284ef0",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": true,
+      "type": "todo"
+    },
+    {
+      "text": "Pay ticket",
+      "dateCompleted": "2015-06-03T05:15:56.668Z",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 1,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-06-02T07:16:51.418Z",
+      "id": "04afe6f9-947d-4760-ab01-0ba1e95c2e41",
+      "checklist": [],
+      "collapseChecklist": false,
+      "completed": true,
+      "type": "todo"
+    }
+  ],
+  "dailys": [
+    {
+      "text": "Go to morning scrums",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 12.93540168657358,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-04-20T16:44:15.377Z",
+      "id": "b1698891-17ab-490e-938c-1e1066b96c6e",
+      "streak": 3,
+      "checklist": [],
+      "collapseChecklist": false,
+      "repeat": {
+        "su": false,
+        "s": false,
+        "f": true,
+        "th": true,
+        "w": true,
+        "t": true,
+        "m": true
+      },
+      "completed": true,
+      "history": [
+        {
+          "date": "2015-04-21T15:18:53.046Z",
+          "value": 4.354045894657689
+        },
+        {
+          "date": "2015-05-01T15:39:31.903Z",
+          "value": 11.053513319676894
+        },
+        {
+          "date": 1433211167311,
+          "value": 9.116052837512532
+        },
+        {
+          "value": 9.907728216451066,
+          "date": 1433229405299
+        },
+        {
+          "value": 10.683504603453482,
+          "date": 1433469593832
+        },
+        {
+          "date": 1433653477493,
+          "value": 11.4440110761846
+        },
+        {
+          "value": 11.4440110761846,
+          "date": 1433780509308
+        },
+        {
+          "date": 1433877717158,
+          "value": 10.698182168249517
+        },
+        {
+          "value": 11.458402652588939,
+          "date": 1433955242533
+        },
+        {
+          "date": 1434062464490,
+          "value": 12.203956555482407
+        }
+      ],
+      "type": "daily"
+    },
+    {
+      "text": "Go to gym",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 18.640564917453474,
+      "tags": {
+        "19aa777f-2554-4e7e-85a6-a34f02b436b8": true
+      },
+      "notes": "",
+      "dateCreated": "2015-03-30T18:35:51.407Z",
+      "id": "31e50a2c-808f-45fe-9643-578bcaa8fb7b",
+      "streak": 0,
+      "checklist": [],
+      "collapseChecklist": false,
+      "repeat": {
+        "su": true,
+        "s": true,
+        "f": true,
+        "th": true,
+        "w": true,
+        "t": true,
+        "m": true
+      },
+      "completed": false,
+      "history": [
+        {
+          "date": "2015-03-31T17:46:50.521Z",
+          "value": 1
+        },
+        {
+          "date": "2015-04-01T14:28:49.071Z",
+          "value": 12.31569519390748
+        },
+        {
+          "date": "2015-05-01T15:39:31.903Z",
+          "value": 24.63342659702498
+        },
+        {
+          "date": 1433211167313,
+          "value": 20.41611679181641
+        },
+        {
+          "value": 19.82348036334299,
+          "date": 1433229405303
+        },
+        {
+          "value": 18.61072022044829,
+          "date": 1433469593837
+        },
+        {
+          "date": 1433653477514,
+          "value": 17.35937171325693
+        },
+        {
+          "value": 18.000296345857375,
+          "date": 1433780509309
+        },
+        {
+          "date": 1433877717159,
+          "value": 18.630780376787616
+        },
+        {
+          "value": 19.2511598403881,
+          "date": 1433955242534
+        },
+        {
+          "date": 1434062464493,
+          "value": 18.640564917453474
+        }
+      ],
+      "type": "daily"
+    },
+    {
+      "text": "Write code",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 21.50540888794746,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:34:20.619Z",
+      "id": "52443015-a92f-4270-b470-5c5050b281ce",
+      "streak": 3,
+      "checklist": [],
+      "collapseChecklist": false,
+      "repeat": {
+        "su": false,
+        "s": false,
+        "f": true,
+        "th": true,
+        "w": true,
+        "t": true,
+        "m": true
+      },
+      "completed": true,
+      "history": [
+        {
+          "date": "2015-03-31T17:46:50.524Z",
+          "value": -1
+        },
+        {
+          "date": "2015-04-01T14:28:49.071Z",
+          "value": 8.377998349421699
+        },
+        {
+          "date": "2015-05-01T15:39:31.903Z",
+          "value": 20.041056909241476
+        },
+        {
+          "date": 1433211167316,
+          "value": 18.478105998780435
+        },
+        {
+          "value": 19.1009173671469,
+          "date": 1433229405303
+        },
+        {
+          "value": 19.713867639603986,
+          "date": 1433469593838
+        },
+        {
+          "date": 1433653477514,
+          "value": 20.317265405767078
+        },
+        {
+          "value": 20.317265405767078,
+          "date": 1433780509310
+        },
+        {
+          "date": 1433877717161,
+          "value": 19.723125854577148
+        },
+        {
+          "value": 20.32638048351378,
+          "date": 1433955242534
+        },
+        {
+          "date": 1434062464493,
+          "value": 20.920381272471833
+        }
+      ],
+      "type": "daily"
+    },
+    {
+      "text": "Stretch/ROM",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 17.713458374076918,
+      "tags": {
+        "19aa777f-2554-4e7e-85a6-a34f02b436b8": true
+      },
+      "notes": "",
+      "dateCreated": "2015-03-30T18:32:35.315Z",
+      "id": "d71f4ef3-787f-431f-a430-57ab31d2ebb2",
+      "streak": 0,
+      "checklist": [],
+      "collapseChecklist": false,
+      "repeat": {
+        "su": true,
+        "s": true,
+        "f": true,
+        "th": true,
+        "w": true,
+        "t": true,
+        "m": true
+      },
+      "completed": false,
+      "history": [
+        {
+          "date": "2015-03-31T17:46:50.524Z",
+          "value": 1
+        },
+        {
+          "date": "2015-04-01T14:28:49.071Z",
+          "value": 12.31569519390748
+        },
+        {
+          "date": "2015-05-01T15:39:31.904Z",
+          "value": 22.64648322064605
+        },
+        {
+          "date": 1433211167319,
+          "value": 18.924712397323958
+        },
+        {
+          "value": 19.54043661203339,
+          "date": 1433229405303
+        },
+        {
+          "value": 18.318779068854134,
+          "date": 1433469593840
+        },
+        {
+          "date": 1433653477515,
+          "value": 18.944138474358013
+        },
+        {
+          "value": 19.55955625545339,
+          "date": 1433780509310
+        },
+        {
+          "date": 1433877717163,
+          "value": 18.953767741453223
+        },
+        {
+          "value": 18.338501799187483,
+          "date": 1433955242537
+        },
+        {
+          "date": 1434062464495,
+          "value": 17.713458374076918
+        }
+      ],
+      "type": "daily"
+    },
+    {
+      "text": "Eat vegetables",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 23.932994874630555,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:30:47.858Z",
+      "id": "18ee747e-1a47-495e-b067-315680d1f5bf",
+      "streak": 5,
+      "checklist": [],
+      "collapseChecklist": false,
+      "repeat": {
+        "su": true,
+        "s": true,
+        "f": true,
+        "th": true,
+        "w": true,
+        "t": true,
+        "m": true
+      },
+      "completed": false,
+      "history": [
+        {
+          "date": "2015-03-31T17:46:50.525Z",
+          "value": 1
+        },
+        {
+          "date": "2015-04-01T14:28:49.072Z",
+          "value": 12.562986163594042
+        },
+        {
+          "date": "2015-05-01T15:39:31.904Z",
+          "value": 25.282312802688434
+        },
+        {
+          "date": 1433211167322,
+          "value": 21.610184943408502
+        },
+        {
+          "value": 22.18999460540007,
+          "date": 1433229405303
+        },
+        {
+          "value": 21.030375281416934,
+          "date": 1433469593842
+        },
+        {
+          "date": 1433653477515,
+          "value": 21.613756226664282
+        },
+        {
+          "value": 22.19356588865585,
+          "date": 1433780509310
+        },
+        {
+          "date": 1433877717163,
+          "value": 22.77337555064742
+        },
+        {
+          "value": 23.353185212638987,
+          "date": 1433955242537
+        },
+        {
+          "date": 1434062464495,
+          "value": 23.932994874630555
+        }
+      ],
+      "type": "daily"
+    },
+    {
+      "text": "Sleep",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 32.30615243380203,
+      "tags": {},
+      "notes": "Get at least 7 hours",
+      "dateCreated": "2015-03-30T18:29:43.217Z",
+      "id": "c423302c-a2e3-49ea-b967-4852c71fae02",
+      "streak": 3,
+      "checklist": [],
+      "collapseChecklist": false,
+      "repeat": {
+        "su": true,
+        "s": true,
+        "f": true,
+        "th": true,
+        "w": true,
+        "t": true,
+        "m": true
+      },
+      "completed": true,
+      "history": [
+        {
+          "date": "2015-03-31T17:46:50.525Z",
+          "value": 1
+        },
+        {
+          "date": "2015-04-01T14:28:49.072Z",
+          "value": 11.701494074556498
+        },
+        {
+          "date": "2015-05-01T15:39:31.905Z",
+          "value": 24.729972850445545
+        },
+        {
+          "date": 1433211167322,
+          "value": 28.827294461852624
+        },
+        {
+          "value": 29.407104123844192,
+          "date": 1433229405304
+        },
+        {
+          "value": 29.98691378583576,
+          "date": 1433469593843
+        },
+        {
+          "date": 1433653477515,
+          "value": 30.56672344782733
+        },
+        {
+          "value": 31.146533109818897,
+          "date": 1433780509310
+        },
+        {
+          "date": 1433877717165,
+          "value": 30.56672344782733
+        },
+        {
+          "value": 31.146533109818897,
+          "date": 1433955242537
+        },
+        {
+          "date": 1434062464495,
+          "value": 31.726342771810465
+        }
+      ],
+      "type": "daily"
+    },
+    {
+      "text": "Brush teeth",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 25.45228341335416,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:29:13.101Z",
+      "id": "a156d74f-c2d1-413d-aeeb-bf22cb3602a3",
+      "streak": 16,
+      "checklist": [],
+      "collapseChecklist": false,
+      "repeat": {
+        "su": true,
+        "s": true,
+        "f": true,
+        "th": true,
+        "w": true,
+        "t": true,
+        "m": true
+      },
+      "completed": true,
+      "history": [
+        {
+          "date": "2015-03-31T17:46:50.525Z",
+          "value": 1
+        },
+        {
+          "date": "2015-04-01T14:28:49.072Z",
+          "value": 5.798707567287934
+        },
+        {
+          "date": "2015-05-01T15:39:31.905Z",
+          "value": 16.311207347705174
+        },
+        {
+          "date": 1433211167322,
+          "value": 20.80688417812262
+        },
+        {
+          "value": 21.39361577941318,
+          "date": 1433229405304
+        },
+        {
+          "value": 21.97342544140475,
+          "date": 1433469593843
+        },
+        {
+          "date": 1433653477515,
+          "value": 22.553235103396318
+        },
+        {
+          "value": 23.133044765387886,
+          "date": 1433780509311
+        },
+        {
+          "date": 1433877717165,
+          "value": 23.712854427379455
+        },
+        {
+          "value": 24.292664089371023,
+          "date": 1433955242538
+        },
+        {
+          "date": 1434062464495,
+          "value": 24.87247375136259
+        }
+      ],
+      "type": "daily"
+    },
+    {
+      "text": "Do dishes",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": -5.540097165298098,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:26:26.108Z",
+      "id": "6729e9b8-2087-464e-9956-1cc5c382f31a",
+      "streak": 2,
+      "checklist": [],
+      "collapseChecklist": false,
+      "repeat": {
+        "su": true,
+        "s": true,
+        "f": true,
+        "th": true,
+        "w": true,
+        "t": true,
+        "m": true
+      },
+      "completed": false,
+      "history": [
+        {
+          "date": "2015-03-31T17:46:50.526Z",
+          "value": -1
+        },
+        {
+          "date": "2015-04-01T14:28:49.072Z",
+          "value": 1.984965082593056
+        },
+        {
+          "date": "2015-05-01T15:39:31.905Z",
+          "value": 6.241349856230556
+        },
+        {
+          "date": 1433211167325,
+          "value": -4.553231050528472
+        },
+        {
+          "value": -3.4294723612183855,
+          "date": 1433229405304
+        },
+        {
+          "value": -5.644172216257062,
+          "date": 1433469593845
+        },
+        {
+          "date": 1433653477516,
+          "value": -4.488554518800542
+        },
+        {
+          "value": -6.765071833496423,
+          "date": 1433780509314
+        },
+        {
+          "date": 1433877717167,
+          "value": -7.954364426320364
+        },
+        {
+          "value": -6.728268663361258,
+          "date": 1433955242538
+        },
+        {
+          "date": 1434062464496,
+          "value": -5.540097165298098
+        }
+      ],
+      "type": "daily"
+    },
+    {
+      "text": "Take medication",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 36.05735294066233,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:22:01.384Z",
+      "id": "97dc4e29-e1f5-4530-914a-08b71784deed",
+      "streak": 28,
+      "checklist": [],
+      "collapseChecklist": false,
+      "repeat": {
+        "su": true,
+        "s": true,
+        "f": true,
+        "th": true,
+        "w": true,
+        "t": true,
+        "m": true
+      },
+      "completed": true,
+      "history": [
+        {
+          "date": "2015-03-31T17:46:50.527Z",
+          "value": 1
+        },
+        {
+          "date": "2015-04-01T14:28:49.073Z",
+          "value": 12.562986163594042
+        },
+        {
+          "date": "2015-05-01T15:39:31.906Z",
+          "value": 26.78039834879723
+        },
+        {
+          "date": 1433211167326,
+          "value": 31.41887564472978
+        },
+        {
+          "value": 31.99868530672135,
+          "date": 1433229405305
+        },
+        {
+          "value": 32.57849496871292,
+          "date": 1433469593846
+        },
+        {
+          "date": 1433653477516,
+          "value": 33.158304630704485
+        },
+        {
+          "value": 33.738114292696054,
+          "date": 1433780509315
+        },
+        {
+          "date": 1433877717167,
+          "value": 34.31792395468762
+        },
+        {
+          "value": 34.89773361667919,
+          "date": 1433955242538
+        },
+        {
+          "date": 1434062464496,
+          "value": 35.47754327867076
+        }
+      ],
+      "type": "daily"
+    }
+  ],
+  "habits": [
+    {
+      "text": "Write code (personal)",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-04-26T16:57:54.171Z",
+      "id": "584c1c35-9a21-4aa3-b810-d0144d434e14",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "value": 2.386509196317869,
+          "date": "2015-04-26T16:57:56.332Z"
+        },
+        {
+          "date": 1430542070333,
+          "value": 1.9549754086262472
+        },
+        {
+          "date": 1430634630853,
+          "value": 2.416505486153233
+        },
+        {
+          "date": 1430860063444,
+          "value": 1.5887645181862937
+        },
+        {
+          "date": 1430979412066,
+          "value": 1.7742315730348772
+        },
+        {
+          "value": 1.6979441038645424,
+          "date": 1431406074330
+        },
+        {
+          "value": 1.9623660130663714,
+          "date": 1433211199282
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Grocery Shopping",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0.07772588063971056,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-04-03T19:28:41.881Z",
+      "id": "55661cbc-e949-4f9b-98bc-99b5775da77c",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "value": 1.736398942439476,
+          "date": "2015-04-03T19:28:44.560Z"
+        },
+        {
+          "value": 1.6675473129087912,
+          "date": "2015-05-01T02:29:54.964Z"
+        },
+        {
+          "value": 1,
+          "date": 1433278551162
+        },
+        {
+          "value": 1.243614090235369,
+          "date": 1433653517589
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Do dishes",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 12.07806486063336,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-31T20:52:21.534Z",
+      "id": "551cb948-3485-4db7-b108-df1d91c870e9",
+      "down": true,
+      "up": true,
+      "history": [
+        {
+          "date": "2015-03-31T20:52:24.003Z",
+          "value": 1
+        },
+        {
+          "date": 1430517194158,
+          "value": 9.789142504241076
+        },
+        {
+          "date": 1430634626324,
+          "value": 11.330054806082767
+        },
+        {
+          "value": 12.07806486063336,
+          "date": 1433917742639
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Don't eat out",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 11.330149142506757,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-31T19:29:56.200Z",
+      "id": "f913f7e4-3b85-4625-b334-561b64da853d",
+      "down": true,
+      "up": true,
+      "history": [
+        {
+          "value": 1,
+          "date": "2015-03-31T20:51:57.912Z"
+        },
+        {
+          "value": 10.56736451642928,
+          "date": 1433211348583
+        },
+        {
+          "value": 9.789234924236876,
+          "date": 1433469615624
+        },
+        {
+          "value": 10.56737050169566,
+          "date": 1433653523542
+        },
+        {
+          "value": 11.330143612741878,
+          "date": 1433803736598
+        },
+        {
+          "value": 10.567376141702809,
+          "date": 1433888397973
+        },
+        {
+          "value": 11.330149142506757,
+          "date": 1433917739541
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Apartment hunt (10+ mins)",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:50:00.628Z",
+      "id": "d33b0edc-9255-42eb-81f9-46dfe24bffa9",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "date": "2015-03-31T03:27:52.938Z",
+          "value": 1
+        },
+        {
+          "value": 1.48726896031426,
+          "date": 1431406075785
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Go to bed before 11",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": -7.958570721954075,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:46:37.262Z",
+      "id": "dbee87ea-a49f-4f34-8927-773a6b253e0c",
+      "down": true,
+      "up": true,
+      "history": [
+        {
+          "date": "2015-04-01T06:10:55.871Z",
+          "value": -2.139476217974206
+        },
+        {
+          "date": 1430455889267,
+          "value": -6.732345227957342
+        },
+        {
+          "date": 1430634633367,
+          "value": -7.958572059906461
+        },
+        {
+          "value": -9.225254384418857,
+          "date": 1431406081756
+        },
+        {
+          "value": -7.958570721954075,
+          "date": 1432414351360
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Teach BJJ",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0.25,
+      "tags": {
+        "19aa777f-2554-4e7e-85a6-a34f02b436b8": true
+      },
+      "notes": "",
+      "dateCreated": "2015-03-30T18:45:57.067Z",
+      "id": "93822a43-9f43-49bc-9912-def057606473",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "date": "2015-03-31T03:03:03.722Z",
+          "value": 1
+        },
+        {
+          "date": 1430542081708,
+          "value": 1.0967934954782914
+        },
+        {
+          "value": 1,
+          "date": 1431406085193
+        },
+        {
+          "value": 1,
+          "date": 1432414344941
+        },
+        {
+          "value": 1,
+          "date": 1433917746059
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Drill BJJ",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {
+        "19aa777f-2554-4e7e-85a6-a34f02b436b8": true
+      },
+      "notes": "45 mins+",
+      "dateCreated": "2015-03-30T18:26:21.062Z",
+      "id": "6858833e-1e38-4820-b867-d2af04e3bf97",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "date": "2015-03-31T03:02:52.727Z",
+          "value": 1
+        },
+        {
+          "date": 1430887741723,
+          "value": 1
+        },
+        {
+          "date": 1430979419512,
+          "value": 1.48726896031426
+        },
+        {
+          "value": 1,
+          "date": 1432272484532
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Work out",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0.25,
+      "tags": {
+        "19aa777f-2554-4e7e-85a6-a34f02b436b8": true
+      },
+      "notes": "45+ mins",
+      "dateCreated": "2015-03-30T18:28:39.521Z",
+      "id": "de562a50-797a-4bba-9783-27b1d981dbc4",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "date": "2015-03-31T03:02:53.830Z",
+          "value": 1
+        },
+        {
+          "date": 1430887745187,
+          "value": 1
+        },
+        {
+          "date": 1430979420716,
+          "value": 1.48726896031426
+        },
+        {
+          "value": 1.3623344674450577,
+          "date": 1431406086318
+        },
+        {
+          "value": 1.3318939504685519,
+          "date": 1431660691434
+        },
+        {
+          "value": 1,
+          "date": 1433890946097
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "BJJ class",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {
+        "19aa777f-2554-4e7e-85a6-a34f02b436b8": true
+      },
+      "notes": "",
+      "dateCreated": "2015-03-30T18:20:38.808Z",
+      "id": "b79cc092-c9e8-41c4-b5fa-6ec75520e423",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "date": "2015-04-01T01:09:28.713Z",
+          "value": 1.5515319228643416
+        },
+        {
+          "date": 1430447404525,
+          "value": 1.7919368140792185
+        },
+        {
+          "date": 1430634645335,
+          "value": 2.1699252700496503
+        },
+        {
+          "date": 1430887750945,
+          "value": 1.528676114677093
+        },
+        {
+          "value": 1,
+          "date": 1431660690348
+        },
+        {
+          "value": 2.2122482406699344,
+          "date": 1432272488233
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Get massage",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:36:04.589Z",
+      "id": "b546adf8-6c52-4520-9043-d0fdf6ab3d18",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "date": 1427899412003,
+          "value": 1
+        },
+        {
+          "value": 1,
+          "date": 1429133123550
+        },
+        {
+          "date": 1430256982610,
+          "value": 1
+        },
+        {
+          "value": 1,
+          "date": 1431451692879
+        },
+        {
+          "value": 1.48726896031426,
+          "date": 1431641601574
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Tango",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:36:24.050Z",
+      "id": "80488f43-0f27-4439-b608-31458fb86089",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "value": 1,
+          "date": 1428388224112
+        },
+        {
+          "value": 1,
+          "date": 1428989413044
+        },
+        {
+          "value": 1,
+          "date": 1429592791725
+        },
+        {
+          "date": 1430201616648,
+          "value": 1
+        },
+        {
+          "value": 1,
+          "date": 1431406088465
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Laundry load",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:33:49.408Z",
+      "id": "7193248f-fb4d-4c87-bb2b-bcedc9af2f58",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "date": "2015-03-31T23:08:16.210Z",
+          "value": 1
+        },
+        {
+          "value": 1.9747,
+          "date": 1431641604032
+        },
+        {
+          "value": 2.4438611209770964,
+          "date": 1432272495442
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Clean apartment",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:37:51.097Z",
+      "id": "95092bcc-4a98-47d8-b229-9868c27537d0",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "value": 1,
+          "date": 1429037186561
+        },
+        {
+          "value": 1.243614090235369,
+          "date": 1429211922915
+        },
+        {
+          "value": 1.6059991759714958,
+          "date": 1429303308617
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Take a walk (10 mins+)",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0.3486970197064776,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:20:38.809Z",
+      "id": "bcdf54be-f407-4ee6-a878-b6e053c5fcb5",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "value": 1.48726896031426,
+          "date": "2015-03-31T03:03:12.507Z"
+        },
+        {
+          "value": 1.6324235410152603,
+          "date": "2015-04-03T19:28:25.692Z"
+        },
+        {
+          "value": 2.0496429838955237,
+          "date": "2015-05-01T02:30:23.334Z"
+        },
+        {
+          "value": 1.1218019312959666,
+          "date": 1433211356228
+        },
+        {
+          "value": 1.2732895481715534,
+          "date": 1433469627752
+        },
+        {
+          "value": 1.620462761688813,
+          "date": 1433653543628
+        },
+        {
+          "value": 1.3947880788259104,
+          "date": 1433880786104
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Floss",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:35:13.543Z",
+      "id": "75d48bc8-cecd-4cae-819f-6b664a6e1024",
+      "down": false,
+      "up": true,
+      "history": [],
+      "type": "habit"
+    },
+    {
+      "text": "Send a message on OkCupid",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:48:22.770Z",
+      "id": "455d6a81-226a-4029-bd8b-97494970fcf2",
+      "down": false,
+      "up": true,
+      "history": [
+        {
+          "date": "2015-03-31T23:53:28.102Z",
+          "value": 1
+        },
+        {
+          "value": 1,
+          "date": 1431451696390
+        },
+        {
+          "value": 1.48726896031426,
+          "date": 1431641610830
+        },
+        {
+          "value": 1.3623344674450577,
+          "date": 1432272504330
+        },
+        {
+          "value": 3.241143938090821,
+          "date": 1432414326727
+        },
+        {
+          "value": 2.7449088943724256,
+          "date": 1433211360702
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Let food go bad",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:33:12.742Z",
+      "id": "40747502-f6a2-488e-a09e-8431619c0238",
+      "down": true,
+      "up": false,
+      "history": [],
+      "type": "habit"
+    },
+    {
+      "text": "Eat sugar",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": -2.6234809624122786,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:20:38.808Z",
+      "id": "06be8e30-df6f-4507-ad6c-056aa073045d",
+      "down": true,
+      "up": true,
+      "history": [
+        {
+          "date": "2015-03-30T18:25:10.868Z",
+          "value": -0.26337236989928314
+        },
+        {
+          "value": -1.5539432563724036,
+          "date": 1430979434584
+        },
+        {
+          "value": -0.5133191380334863,
+          "date": 1431406095827
+        },
+        {
+          "value": -1.553942737300144,
+          "date": 1431641613455
+        },
+        {
+          "value": -2.6234816279789492,
+          "date": 1432272508596
+        },
+        {
+          "value": -3.7236010179808376,
+          "date": 1433653549511
+        },
+        {
+          "value": -2.6234809624122786,
+          "date": 1433880788863
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Drink alcohol",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:51:05.390Z",
+      "id": "f0b4f1fa-3bc0-4777-ab45-3aa6fc15c042",
+      "down": true,
+      "up": false,
+      "history": [
+        {
+          "value": -1.026657310999762,
+          "date": 1428732370101
+        },
+        {
+          "date": 1430455834023,
+          "value": -2.081442996376489
+        },
+        {
+          "value": -1.026657310999762,
+          "date": 1430979435607
+        }
+      ],
+      "type": "habit"
+    },
+    {
+      "text": "Drink >2 cups of coffee",
+      "challenge": {},
+      "attribute": "str",
+      "priority": 1,
+      "value": 0,
+      "tags": {},
+      "notes": "",
+      "dateCreated": "2015-03-30T18:31:19.866Z",
+      "id": "f41bb343-e459-40c7-9ccf-a8a0edca4054",
+      "down": true,
+      "up": false,
+      "history": [
+        {
+          "value": -1.026657310999762,
+          "date": 1429650335804
+        },
+        {
+          "date": 1430603322965,
+          "value": -1.026657310999762
+        },
+        {
+          "value": -1.026657310999762,
+          "date": 1432414323059
+        }
+      ],
+      "type": "habit"
+    }
+  ],
+  "inbox": {
+    "optOut": false,
+    "messages": {},
+    "blocks": [],
+    "newMessages": 0
+  },
+  "challenges": [],
+  "tags": [
+    {
+      "name": "morning",
+      "id": "63d4f07d-2424-4c40-a8d3-07c0d1d150fd"
+    },
+    {
+      "name": "afternoon",
+      "id": "fdb3eee3-9a41-4d5e-9e2f-8d785624e25e"
+    },
+    {
+      "name": "evening",
+      "id": "cbdf8680-f041-433b-9b3d-d46695b197b5"
+    },
+    {
+      "name": "training",
+      "id": "19aa777f-2554-4e7e-85a6-a34f02b436b8"
+    }
+  ],
+  "stats": {
+    "training": {
+      "con": 0,
+      "str": 0,
+      "per": 0,
+      "int": 0
+    },
+    "buffs": {
+      "shinySeed": false,
+      "spookDust": false,
+      "snowball": false,
+      "streaks": false,
+      "stealth": 0,
+      "con": 0,
+      "per": 0,
+      "int": 0,
+      "str": 0
+    },
+    "per": 2,
+    "int": 3,
+    "con": 3,
+    "str": 2,
+    "points": 16,
+    "class": "wizard",
+    "lvl": 26,
+    "gp": 465.6834534879751,
+    "exp": 346.56684348788883,
+    "mp": 134,
+    "hp": 43.550328603524925,
+    "toNextLevel": 570,
+    "maxHealth": 50,
+    "maxMP": 134
+  },
+  "profile": {
+    "name": "lilactown"
+  },
+  "preferences": {
+    "language": "en",
+    "timezoneOffset": 420,
+    "costume": false,
+    "emailNotifications": {
+      "weeklyRecaps": true,
+      "importantAnnouncements": true,
+      "invitedQuest": true,
+      "questStarted": true,
+      "invitedGuild": true,
+      "invitedParty": true,
+      "giftedSubscription": true,
+      "giftedGems": true,
+      "wonChallenge": true,
+      "kickedGroup": true,
+      "newPM": true,
+      "unsubscribeFromAll": false
+    },
+    "webhooks": {},
+    "displayInviteToPartyWhenPartyIs1": true,
+    "toolbarCollapsed": false,
+    "advancedCollapsed": false,
+    "tagsCollapsed": false,
+    "dailyDueDefaultView": false,
+    "newTaskEdit": false,
+    "disableClasses": false,
+    "stickyHeader": true,
+    "sleep": false,
+    "dateFormat": "MM/dd/yyyy",
+    "allocationMode": "flat",
+    "sound": "off",
+    "shirt": "black",
+    "skin": "f5a76e",
+    "hideHeader": false,
+    "hair": {
+      "flower": 0,
+      "mustache": 0,
+      "beard": 0,
+      "bangs": 3,
+      "base": 0,
+      "color": "brown"
+    },
+    "size": "slim",
+    "dayStart": 0
+  },
+  "party": {
+    "quest": {
+      "key": null,
+      "completed": "",
+      "progress": {
+        "collect": {},
+        "down": 0,
+        "up": 3.2850943624821203
+      }
+    },
+    "orderAscending": "ascending",
+    "order": "level"
+  },
+  "newMessages": {
+    "b0664c72-407e-4ab2-bc1a-27c8ca94357f": {
+      "value": true,
+      "name": "Ghostbusters"
+    }
+  },
+  "lastCron": "2015-06-11T22:41:04.481Z",
+  "items": {
+    "currentPet": "Wolf-Desert",
+    "currentMount": "Dragon-Shade",
+    "lastDrop": {
+      "count": 0,
+      "date": "2015-06-10T22:17:38.245Z"
+    },
+    "quests": {
+      "atom1": 1
+    },
+    "mounts": {
+      "Dragon-Shade": true
+    },
+    "food": {
+      "Fish": 3,
+      "Chocolate": 6,
+      "Milk": 5,
+      "Honey": 3,
+      "Strawberry": 4,
+      "CottonCandyBlue": 4,
+      "CottonCandyPink": 5,
+      "Potatoe": 1,
+      "RottenMeat": 3,
+      "Meat": 1
+    },
+    "hatchingPotions": {
+      "Desert": 4,
+      "Shade": 0,
+      "CottonCandyBlue": 0,
+      "Red": 2,
+      "CottonCandyPink": 1,
+      "White": 2,
+      "Zombie": 2,
+      "Skeleton": 3,
+      "Base": 1,
+      "Golden": 1
+    },
+    "eggs": {
+      "Wolf": 3,
+      "Dragon": 2,
+      "LionCub": 4,
+      "PandaCub": 2,
+      "Fox": 2,
+      "BearCub": 5,
+      "Rat": 2,
+      "TigerCub": 4,
+      "Cactus": 4,
+      "Slime": 3,
+      "Seahorse": 3,
+      "Sheep": 3,
+      "Gryphon": 3
+    },
+    "pets": {
+      "Dragon-Shade": -1,
+      "PandaCub-Red": 5,
+      "Wolf-Desert": 10,
+      "Rat-CottonCandyBlue": 5,
+      "Fox-Desert": 5,
+      "LionCub-Red": 5,
+      "BearCub-Shade": 5,
+      "Wolf-CottonCandyPink": 10,
+      "Fox-Shade": 5,
+      "Wolf-White": 5
+    },
+    "special": {
+      "nyeReceived": [],
+      "valentineReceived": [],
+      "shinySeed": 0,
+      "spookDust": 0,
+      "snowball": 0
+    },
+    "gear": {
+      "costume": {
+        "headAccessory": "headAccessory_special_spring2015Warrior",
+        "shield": "shield_base_0",
+        "head": "head_base_0",
+        "armor": "armor_base_0"
+      },
+      "equipped": {
+        "weapon": "weapon_special_spring2015Mage",
+        "headAccessory": "headAccessory_special_spring2015Mage",
+        "shield": "shield_base_0",
+        "head": "head_special_spring2015Mage",
+        "armor": "armor_special_spring2015Mage"
+      },
+      "owned": {
+        "weapon_warrior_0": true,
+        "weapon_warrior_1": true,
+        "armor_warrior_1": true,
+        "head_warrior_1": true,
+        "shield_warrior_1": true,
+        "weapon_special_spring2015Warrior": true,
+        "headAccessory_special_spring2015Warrior": true,
+        "weapon_wizard_0": true,
+        "weapon_special_spring2015Mage": true,
+        "head_special_spring2015Mage": true,
+        "armor_special_spring2015Mage": true,
+        "headAccessory_special_spring2015Mage": true
+      }
+    }
+  },
+  "invitations": {
+    "guilds": []
+  },
+  "history": {
+    "todos": [
+      {
+        "date": "2015-03-31T17:46:50.512Z",
+        "value": -4
+      },
+      {
+        "date": "2015-04-01T14:28:49.059Z",
+        "value": -37.95057381135892
+      },
+      {
+        "date": "2015-05-01T15:39:31.888Z",
+        "value": -159.18754212384135
+      },
+      {
+        "value": -296.0535964954163,
+        "date": 1433211167299
+      },
+      {
+        "date": 1433229405291,
+        "value": -302.76942240712503
+      },
+      {
+        "value": -318.25298763979663,
+        "date": 1433469593819
+      },
+      {
+        "date": 1433653477484,
+        "value": -335.95542257074305
+      },
+      {
+        "value": -353.90154252546523,
+        "date": 1433780509298
+      },
+      {
+        "date": 1433877717141,
+        "value": -362.9749276869714
+      },
+      {
+        "value": -372.1206138382378,
+        "date": 1433955242524
+      },
+      {
+        "date": 1434062464481,
+        "value": -381.3431393581442
+      }
+    ],
+    "exp": [
+      {
+        "date": "2015-03-31T17:46:50.512Z",
+        "value": 72
+      },
+      {
+        "date": "2015-04-01T14:28:49.059Z",
+        "value": 1843.5797619047617
+      },
+      {
+        "date": "2015-05-01T15:39:31.888Z",
+        "value": 6152.05836535972
+      },
+      {
+        "value": 7472.88942413305,
+        "date": 1433211167299
+      },
+      {
+        "date": 1433229405291,
+        "value": 7622.88942413305
+      },
+      {
+        "value": 7731.88942413305,
+        "date": 1433469593819
+      },
+      {
+        "date": 1433653477484,
+        "value": 7820.88942413305
+      },
+      {
+        "value": 7907.88942413305,
+        "date": 1433780509298
+      },
+      {
+        "date": 1433877717141,
+        "value": 7958.88942413305
+      },
+      {
+        "value": 8233.56684348789,
+        "date": 1433955242524
+      },
+      {
+        "date": 1434062464481,
+        "value": 8424.56684348789
+      }
+    ]
+  },
+  "flags": {
+    "partyEnabled": true,
+    "armoireEmpty": false,
+    "armoireOpened": false,
+    "armoireEnabled": false,
+    "welcomed": true,
+    "cronCount": 54,
+    "communityGuidelinesAccepted": true,
+    "lastWeeklyRecap": "2015-06-12T00:10:16.864Z",
+    "weeklyRecapEmailsPhase": 0,
+    "recaptureEmailsPhase": 2,
+    "levelDrops": {
+      "atom1": true
+    },
+    "freeRebirth": false,
+    "rebirthEnabled": false,
+    "classSelected": true,
+    "rewrite": true,
+    "newStuff": false,
+    "itemsEnabled": true,
+    "dropsEnabled": true,
+    "tour": {
+      "equipment": -2,
+      "hall": -2,
+      "mounts": -2,
+      "pets": -2,
+      "market": -2,
+      "challenges": -2,
+      "guilds": -1,
+      "party": -2,
+      "tavern": -2,
+      "stats": -2,
+      "classes": -2,
+      "intro": -2
+    },
+    "showTour": true,
+    "customizationsNotification": true
+  },
+  "purchased": {
+    "plan": {
+      "consecutive": {
+        "trinkets": 0,
+        "gemCapExtra": 0,
+        "offset": 0,
+        "count": 0
+      },
+      "mysteryItems": [],
+      "gemsBought": 0,
+      "extraMonths": 0
+    },
+    "txnCount": 0,
+    "background": {},
+    "shirt": {},
+    "hair": {},
+    "skin": {},
+    "ads": false
+  },
+  "filters": {},
+  "balance": 0,
+  "contributor": {},
+  "backer": {},
+  "auth": {
+    "timestamps": {
+      "loggedin": "2015-06-11T22:41:04.483Z",
+      "created": "2015-03-30T18:20:38.787Z"
+    },
+    "local": {
+      "username": "lilactown",
+      "email": "will@willacton.com",
+      "salt": "116ca39a57",
+      "hashed_password": "4d71ab76cba4880a9888fc61284a850a423bd1b0"
+    }
+  },
+  "achievements": {
+    "perfect": 23,
+    "shinySeed": 1,
+    "quests": {
+      "gryphon": 1,
+      "sheep": 1,
+      "dilatory_derby": 1,
+      "slime": 1,
+      "rat": 1
+    },
+    "streak": 2,
+    "challenges": []
+  },
+  "_v": 15,
+  "id": "db8d3db1-5d72-403d-9fac-4e5b1f81d698"
+}

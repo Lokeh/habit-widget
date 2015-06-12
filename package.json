@@ -9,6 +9,7 @@
   "author": "Will Acton",
   "license": "MIT",
   "dependencies": {
+    "qwest": "^1.7.0",
     "react": "^0.13.3"
   }
 }
