@@ -21,7 +21,7 @@
 				<div className="habit-list">
 					Latest task completed:
 					<div className="habit">
-						{latestHabit.text}
+						<span className="name">{latestHabit.text}</span>
 					</div>
 				</div>
 			);
@@ -46,11 +46,12 @@
 
 	var StatBar = React.createClass({
 		render: function () {
-			var style = {width: ((this.props.statValue / this.props.max)*100).toFixed() + '%' };
+			var style = {width: Math.floor((this.props.statValue / this.props.max)*100) + '%' };
 			var classes = "meter " + this.props.name;
 			return (
 				<div className="stat-bar">
 					<div className={classes} style={style}></div>
+					<i className="fa fa-heart"></i>
 					<span className="text">
 						{this.props.statValue.toFixed()} / {this.props.max}
 					</span>
@@ -121,7 +122,7 @@
 
 	// Render our parent component
 	React.render(
-		<Habit url="https://habitrpg.com:443/api/v2/user" interval={10000} />,
+		<Habit url="https://habitrpg.com:443/api/v2/user" />,
 		document.getElementById('habit-widget')
 	);
 })();

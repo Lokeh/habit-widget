@@ -7,7 +7,7 @@ module.exports = function(grunt) {
       gruntfile: {
         src: 'Gruntfile.js',
       },
-      all: ['./js/src/*.js' ],
+      all: ['./js/src/**/*.js', './js/src/**/*.jsx'],
       options: {
         additionalSuffixes: ['.js']
       }
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
       files: {
         expand: true,
         cwd: 'js/src',
-        src: ['**/*.js'],
+        src: ['**/*.jsx'],
         dest: 'js/build',
         ext: '.js'
       }
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         'tasks': ['jshint:gruntfile']
       },
       src: {
-        files: 'js/src/**/*.js',
+        files: ['js/src/**/*.js', 'js/src/**/*.jsx'],
         tasks: ['default']
       }
     }
