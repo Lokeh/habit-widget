@@ -21,6 +21,20 @@ module.exports = function(grunt) {
         ext: '.js'
       }
     },
+    babel: {
+        options: {
+            sourceMap: true
+        },
+        all: {
+            files: [{
+                expand: true,
+                cwd: 'js/src',
+                src: ['**/*.js', '**/*.jsx'],
+                dest: 'js/build/',
+                ext: '.js'
+            }]
+        }
+    },
     watch: {
       gruntfile: {
         'files': 'Gruntfile.js',
@@ -37,8 +51,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-jsxhint');
   grunt.loadNpmTasks('grunt-react');
+  grunt.loadNpmTasks('grunt-babel');
 
   // Default task(s).
-  grunt.registerTask('default', ['jshint:all', 'react']);
+  grunt.registerTask('default', ['jshint:all', 'babel']);
 
 };
