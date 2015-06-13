@@ -9,7 +9,8 @@ module.exports = function(grunt) {
       },
       all: ['./js/src/**/*.js', './js/src/**/*.jsx'],
       options: {
-        additionalSuffixes: ['.js']
+        additionalSuffixes: ['.js'],
+        esnext: true
       }
     },
     react: {

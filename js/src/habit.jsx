@@ -1,22 +1,21 @@
 
 // Create scope
 (function () {
-	var byDate = function (el1, el2) {
-		var h1len = el1.history.length;
-		var h2len = el2.history.length;
+	const byDate = (el1, el2) => {
+		const h1len = el1.history.length;
+		const h2len = el2.history.length;
 		if (h1len === 0 && h2len === 0) return 0;
 		if (h1len === 0) return 1;
 		if (h2len === 0) return -1;
-		var a = new Date(el1.history[h1len-1].date);
-		var b = new Date(el2.history[h2len-1].date);
+		const a = new Date(el1.history[h1len-1].date);
+		const b = new Date(el2.history[h2len-1].date);
 		return a>b ? -1 : a<b ? 1 : 0;
 	};
 
-	var LatestHabit = React.createClass({
-		render: function () {
-			var latestHabit = this.props.habits.concat(this.props.dailys).sort(byDate)[0];
+	const LatestHabit = React.createClass({
+		render() {
+			const latestHabit = this.props.habits.concat(this.props.dailys).sort(byDate)[0] || { text: 'Loading...' };
 			// if (latestHabit) console.log(latestHabit.history[latestHabit.history.length-1].date);
-			if (!latestHabit) latestHabit = { text: 'Loading...' };
 			return (
 				<div className="habit-list">
 					Latest task completed:
@@ -28,26 +27,18 @@
 		}
 	});
 
-	var LevelIndicator = React.createClass({
-		render: function () {
-			return (
-				<span className="level">Lvl {this.props.level}</span>
-			);
-		}
+	const LevelIndicator = React.createClass({
+		render() { return (<span className="level">Lvl {this.props.level}</span>); }
 	});
 
-	var ProfileName = React.createClass({
-		render: function () {
-			return (
-				<span className="profile-name">{this.props.name}</span>
-			);
-		}
+	const ProfileName = React.createClass({
+		render() { return (<span className="profile-name">{this.props.name}</span>); }
 	});
 
-	var StatBar = React.createClass({
-		render: function () {
-			var style = {width: Math.floor((this.props.statValue / this.props.max)*100) + '%' };
-			var classes = "meter " + this.props.name;
+	const StatBar = React.createClass({
+		render() {
+			const style = {width: Math.floor((this.props.statValue / this.props.max)*100) + '%' };
+			const classes = "meter " + this.props.name;
 			return (
 				<div className="stat-bar">
 					<div className={classes} style={style}></div>
@@ -60,8 +51,8 @@
 		}
 	});
 
-	var Habit = React.createClass({
-		loadData: function (url, cb) {
+	const Habit = React.createClass({
+		loadData(url, cb) {
 			console.log('loading...');
 			qwest.get(url, null, {
 				headers: {
@@ -70,15 +61,13 @@
 				},
 				cache: false
 			})
-			.then(function (data) {
-				this.setState({ data: data });
-			}.bind(this))
-			.catch(function (e, data) {
+			.then((data) => this.setState({ data: data }))
+			.catch((e, data) => {
 				console.log(e);
 				console.log(data);
 			});
 		},
-		getInitialState: function () {
+		getInitialState() {
 			return { 
 				data: {
 					todos: [],
@@ -99,12 +88,12 @@
 				} 
 			};
 		},
-		componentDidMount: function () {
+		componentDidMount() {
 			console.log('mounted');
 			this.loadData(this.props.url);
 			// setInterval(function () { this.loadData(this.props.url); }.bind(this), this.props.interval);
 		},
-		render: function () {
+		render() {
 			return (
 				<div className="panel">
 					<div className="profile-info">
