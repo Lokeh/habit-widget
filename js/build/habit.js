@@ -21,7 +21,7 @@
 				React.createElement("div", {className: "habit-list"}, 
 					"Latest task completed:", 
 					React.createElement("div", {className: "habit"}, 
-						latestHabit.text
+						React.createElement("span", {className: "name"}, latestHabit.text)
 					)
 				)
 			);
@@ -46,11 +46,12 @@
 
 	var StatBar = React.createClass({displayName: "StatBar",
 		render: function () {
-			var style = {width: ((this.props.statValue / this.props.max)*100).toFixed() + '%' };
+			var style = {width: Math.floor((this.props.statValue / this.props.max)*100) + '%' };
 			var classes = "meter " + this.props.name;
 			return (
 				React.createElement("div", {className: "stat-bar"}, 
 					React.createElement("div", {className: classes, style: style}), 
+					React.createElement("i", {className: "fa fa-heart"}), 
 					React.createElement("span", {className: "text"}, 
 						this.props.statValue.toFixed(), " / ", this.props.max
 					)
@@ -121,7 +122,7 @@
 
 	// Render our parent component
 	React.render(
-		React.createElement(Habit, {url: "https://habitrpg.com:443/api/v2/user", interval: 10000}),
+		React.createElement(Habit, {url: "https://habitrpg.com:443/api/v2/user"}),
 		document.getElementById('habit-widget')
 	);
 })();
