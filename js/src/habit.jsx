@@ -35,17 +35,35 @@
 		render() { return (<span className="profile-name">{this.props.name}</span>); }
 	});
 
+	const GlyphLabel = React.createClass({
+		render() {
+			const glyphs = {
+				"hp": "fa fa-heart",
+				"exp": "fa fa-star",
+				"mp": "fa fa-fire"
+			};
+			const thisGlyph = glyphs[this.props.type];
+			return (
+				<div className="glyph-label">
+					<i className={thisGlyph}></i>
+				</div>
+			);
+		}
+	});
+
 	const StatBar = React.createClass({
 		render() {
 			const style = {width: Math.floor((this.props.statValue / this.props.max)*100) + '%' };
 			const classes = "meter " + this.props.name;
 			return (
-				<div className="stat-bar">
-					<div className={classes} style={style}></div>
-					<i className="fa fa-heart"></i>
-					<span className="text">
-						{this.props.statValue.toFixed()} / {this.props.max}
-					</span>
+				<div>
+					<GlyphLabel type={this.props.name} />
+					<div className="stat-bar">
+						<div className={classes} style={style}></div>
+						<span className="text">
+							{this.props.statValue.toFixed()} / {this.props.max}
+						</span>
+					</div>
 				</div>
 			);
 		}

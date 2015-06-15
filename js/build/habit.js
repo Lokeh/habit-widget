@@ -62,6 +62,24 @@
 		}
 	});
 
+	var GlyphLabel = React.createClass({
+		displayName: "GlyphLabel",
+
+		render: function render() {
+			var glyphs = {
+				"hp": "fa fa-heart",
+				"exp": "fa fa-star",
+				"mp": "fa fa-fire"
+			};
+			var thisGlyph = glyphs[this.props.type];
+			return React.createElement(
+				"div",
+				{ className: "glyph-label" },
+				React.createElement("i", { className: thisGlyph })
+			);
+		}
+	});
+
 	var StatBar = React.createClass({
 		displayName: "StatBar",
 
@@ -70,15 +88,19 @@
 			var classes = "meter " + this.props.name;
 			return React.createElement(
 				"div",
-				{ className: "stat-bar" },
-				React.createElement("div", { className: classes, style: style }),
-				React.createElement("i", { className: "fa fa-heart" }),
+				null,
+				React.createElement(GlyphLabel, { type: this.props.name }),
 				React.createElement(
-					"span",
-					{ className: "text" },
-					this.props.statValue.toFixed(),
-					" / ",
-					this.props.max
+					"div",
+					{ className: "stat-bar" },
+					React.createElement("div", { className: classes, style: style }),
+					React.createElement(
+						"span",
+						{ className: "text" },
+						this.props.statValue.toFixed(),
+						" / ",
+						this.props.max
+					)
 				)
 			);
 		}
