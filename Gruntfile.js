@@ -13,15 +13,6 @@ module.exports = function(grunt) {
         esnext: true
       }
     },
-    react: {
-      files: {
-        expand: true,
-        cwd: 'js/src',
-        src: ['**/*.jsx'],
-        dest: 'js/build',
-        ext: '.js'
-      }
-    },
     babel: {
         options: {
             sourceMap: true
@@ -51,7 +42,6 @@ module.exports = function(grunt) {
   // Load plugins
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-jsxhint');
-  grunt.loadNpmTasks('grunt-react');
   grunt.loadNpmTasks('grunt-babel');
 
   // Default task(s).

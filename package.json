@@ -17,7 +17,6 @@
     "grunt-babel": "^5.0.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-jsxhint": "^0.6.0",
-    "grunt-react": "^0.12.2",
     "react-tools": "^0.13.3"
   }
 }
