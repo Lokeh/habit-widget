@@ -44,6 +44,7 @@ var routes = {
 			})();
 		} else if (req.method === 'OPTIONS') {
 			var headers = {};
+			console.log('!OPTIONS');
 			// IE8 does not allow domains to be specified, just the *
 			// headers["Access-Control-Allow-Origin"] = req.headers.origin;
 			headers['Access-Control-Allow-Origin'] = '*';
