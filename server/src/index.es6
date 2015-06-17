@@ -9,26 +9,35 @@ let latestData = {};
 
 const routes = {
 	log(req, res) {
-		const log = fs.createWriteStream('./log', { flags: 'a' });
+		if (req.method === 'POST') {
+			const log = fs.createWriteStream('./log', { flags: 'a' });
 
-		req.pipe(log, { end: false })
-			.on('end', () => {
-			res.writeHead(200);
-			res.end();
-			log.end('\n');
-		});
+			req.pipe(log, { end: false })
+				.on('end', () => {
+				res.writeHead(200, "OK", {'Content-Type': 'text/plain'});
+				res.end();
+				log.end('\n');
+			});
 
-		// This is here incase any errors occur
-		log.on('error', (err) => { throw err; }); // bubble up
+			// This is here incase any errors occur
+			log.on('error', (err) => { throw err; }); // bubble up
+		}
 	},
 
 	payload(req, res) {
-		let jsonPayload = '';
-		req.on('data', (chunk) => { jsonPayload += chunk; }); // chunk gets coerced to string
-		req.on('end', () => { latestData = JSON.parse(jsonPayload);});
-
-		res.writeHead(200, "OK", {'Content-Type': 'text/plain'});
-		res.end();
+		if (req.method === 'POST') {
+			let jsonPayload = '';
+			req.on('data', (chunk) => { jsonPayload += chunk; }); // chunk gets coerced to string
+			req.on('end', () => { 
+				latestData = JSON.parse(jsonPayload);
+				res.writeHead(200, "OK", {'Content-Type': 'text/plain'});
+				res.end();
+			});
+		}
+		else {
+			res.writeHead(200, "OK", {'Content-Type': 'text/plain'});
+			res.end();
+		}
 	},
 
 	data(req, res) {
@@ -46,17 +55,24 @@ const routes = {
 http.createServer((req, res) => {
 
 	// A simple router
-	const route = url.parse(req.url).pathname.substr(1);
-	try {
+	const route = url.parse(req.url).pathname.substr(1); // get the pathname, minus the beginning '/'
+
+	if (routes.hasOwnProperty(route)) {
 		routes[route](req, res);
-	} catch (e) {
-		if (e instanceof TypeError) {
-			routes.notFound(req, res);
-		}
-		else {
-			throw e; // bubble up to crash
-		}
 	}
+	else {
+		routes.notFound(req, res);
+	}
+	// try {
+	// 	routes[route](req, res);
+	// } catch (e) {
+	// 	if (e instanceof TypeError) {
+	// 		routes.notFound(req, res);
+	// 	}
+	// 	else {
+	// 		throw e; // bubble up to crash
+	// 	}
+	// }
 
 }).listen(parseInt(port, 10));
 
