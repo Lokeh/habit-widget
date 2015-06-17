@@ -1,1 +1,0 @@
-{"version":3,"sources":["js/src/config.js"],"names":[],"mappings":";;;AACA,IAAI,WAAW,GAAG;AACjB,IAAG,EAAE,sCAAsC;AAC3C,IAAG,EAAE,sCAAsC;CAC3C,CAAC","file":"js/src/config.js","sourcesContent":["/* config.js */\nvar habitConfig = {\n\tuid: 'db8d3db1-5d72-403d-9fac-4e5b1f81d698',\n\tkey: 'e9732fa0-6634-46ff-a202-516f47329d35'\n};"]}
