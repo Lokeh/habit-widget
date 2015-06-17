@@ -110,6 +110,8 @@
 		displayName: "Habit",
 
 		processData: function processData(data) {
+			var stats = data.user.stats;
+
 			// https://github.com/HabitRPG/habitrpg/blob/develop/common/script/index.coffee#L125
 			var computeExp = function computeExp(lvl) {
 				return Math.round((Math.pow(lvl, 2) * 0.25 + 10 * lvl + 139.75) / 10) * 10;
@@ -118,6 +120,11 @@
 			var computeMaxMP = function computeMaxMP(int) {
 				return int * 2 + 30;
 			};
+
+			stats.toNextLevel = computeExp(stats.lvl);
+			stats.maxMP = computeMaxMP(stats.int);
+			stats.maxHealth = 50; // constant
+			return data;
 		},
 		loadData: function loadData(url, cb) {
 			var _this = this;
@@ -126,7 +133,7 @@
 			qwest.get(url, null, {
 				cache: false
 			}).then(function (data) {
-				return _this.setState({ data: data });
+				return _this.setState(_this.processData(data));
 			})["catch"](function (e, data) {
 				console.log(e);
 				console.log(data);
@@ -134,18 +141,17 @@
 		},
 		getInitialState: function getInitialState() {
 			return {
-				data: {
-					task: { text: "Loading..." },
-					user: {
-						stats: {
-							hp: 0,
-							mp: 0,
-							exp: 0,
-							lvl: 0,
-							maxHealth: 50,
-							maxMP: 0,
-							toNextLevel: 0
-						}
+				profile: { name: "lilactown" },
+				task: { text: "Loading..." },
+				user: {
+					stats: {
+						hp: 0,
+						mp: 0,
+						exp: 0,
+						lvl: 0,
+						maxHealth: 50,
+						maxMP: 0,
+						toNextLevel: 0
 					}
 				}
 			};
@@ -162,18 +168,18 @@
 				React.createElement(
 					"div",
 					{ className: "profile-info" },
-					React.createElement(ProfileName, { name: this.state.data.profile.name }),
-					React.createElement(LevelIndicator, { level: this.state.data.stats.lvl })
+					React.createElement(ProfileName, { name: this.state.profile.name }),
+					React.createElement(LevelIndicator, { level: this.state.user.stats.lvl })
 				),
-				React.createElement(StatBar, { name: "hp", statValue: this.state.data.stats.hp, max: this.state.data.stats.maxHealth }),
-				React.createElement(StatBar, { name: "exp", statValue: this.state.data.stats.exp, max: this.state.data.stats.toNextLevel }),
-				React.createElement(StatBar, { name: "mp", statValue: this.state.data.stats.mp, max: this.state.data.stats.maxMP }),
-				React.createElement(LatestHabit, { habits: this.state.data.habits, dailys: this.state.data.dailys })
+				React.createElement(StatBar, { name: "hp", statValue: this.state.user.stats.hp, max: this.state.user.stats.maxHealth }),
+				React.createElement(StatBar, { name: "exp", statValue: this.state.user.stats.exp, max: this.state.user.stats.toNextLevel }),
+				React.createElement(StatBar, { name: "mp", statValue: this.state.user.stats.mp, max: this.state.user.stats.maxMP }),
+				React.createElement(LatestHabit, { text: this.state.task.text })
 			);
 		}
 	});
 
 	// Render our parent component
-	React.render(React.createElement(Habit, { url: "http://willacton.com:8888/data" }), document.getElementById("habit-widget"));
+	React.render(React.createElement(Habit, { url: "http://localhost:8888/data" }), document.getElementById("habit-widget"));
 })();
 //# sourceMappingURL=habit.js.map

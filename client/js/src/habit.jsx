@@ -71,36 +71,42 @@
 
 	const Habit = React.createClass({
 		processData(data) {
+			const stats = data.user.stats;
+
 			// https://github.com/HabitRPG/habitrpg/blob/develop/common/script/index.coffee#L125
 			const computeExp = (lvl) => Math.round(((Math.pow(lvl, 2) * 0.25) + (10 * lvl) + 139.75) / 10) * 10;
 			// https://github.com/HabitRPG/habitrpg/blob/develop/common/script/index.coffee#L1754
 			const computeMaxMP = (int) => int*2 + 30;
+
+			stats.toNextLevel = computeExp(stats.lvl);
+			stats.maxMP = computeMaxMP(stats.int);
+			stats.maxHealth = 50; // constant
+			return data;
 		},
 		loadData(url, cb) {
 			console.log('loading...');
 			qwest.get(url, null, {
 				cache: false
 			})
-			.then((data) => this.setState({ data: data }))
+			.then((data) => this.setState( this.processData(data) ))
 			.catch((e, data) => {
 				console.log(e);
 				console.log(data);
 			});
 		},
 		getInitialState() {
-			return { 
-				data: {
-					task: { text: 'Loading...' },
-					user: {
-						stats: {
-							hp: 0,
-							mp: 0,
-							exp: 0,
-							lvl: 0,
-							maxHealth: 50,
-							maxMP: 0,
-							toNextLevel: 0
-						}
+			return {
+				profile: { name: 'lilactown' },
+				task: { text: 'Loading...' },
+				user: {
+					stats: {
+						hp: 0,
+						mp: 0,
+						exp: 0,
+						lvl: 0,
+						maxHealth: 50,
+						maxMP: 0,
+						toNextLevel: 0
 					}
 				}
 			};
@@ -114,13 +120,13 @@
 			return (
 				<div className="panel">
 					<div className="profile-info">
-						<ProfileName name={this.state.data.profile.name} />
-						<LevelIndicator level={this.state.data.stats.lvl} />
+						<ProfileName name={this.state.profile.name} />
+						<LevelIndicator level={this.state.user.stats.lvl} />
 					</div>
-					<StatBar name="hp" statValue={this.state.data.stats.hp} max={this.state.data.stats.maxHealth} />
-					<StatBar name="exp" statValue={this.state.data.stats.exp} max={this.state.data.stats.toNextLevel} />
-					<StatBar name="mp" statValue={this.state.data.stats.mp} max={this.state.data.stats.maxMP} />
-					<LatestHabit habits={this.state.data.habits} dailys={this.state.data.dailys} />
+					<StatBar name="hp" statValue={this.state.user.stats.hp} max={this.state.user.stats.maxHealth} />
+					<StatBar name="exp" statValue={this.state.user.stats.exp} max={this.state.user.stats.toNextLevel} />
+					<StatBar name="mp" statValue={this.state.user.stats.mp} max={this.state.user.stats.maxMP} />
+					<LatestHabit text={this.state.task.text} />
 				</div>
 			);
 		}
@@ -128,7 +134,7 @@
 
 	// Render our parent component
 	React.render(
-		<Habit url="http://willacton.com:8888/data" />,
+		<Habit url="http://localhost:8888/data" />,
 		document.getElementById('habit-widget')
 	);
 })();
