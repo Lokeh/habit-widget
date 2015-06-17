@@ -1,6 +1,6 @@
 
 // Create scope
-(function () {
+const habitWidget = (function () {
 	const LatestHabit = React.createClass({
 		render() {
 			return (
@@ -118,9 +118,10 @@
 		}
 	});
 
-	// Render our parent component
-	React.render(
-		<Habit url="http://willacton.com:8888/data" />,
-		document.getElementById('habit-widget')
-	);
+	return {
+		render: (id, url) => React.render(
+			<Habit url={url} />,
+			document.getElementById(id)
+		)
+	};
 })();

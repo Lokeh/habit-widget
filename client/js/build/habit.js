@@ -2,7 +2,7 @@
 // Create scope
 "use strict";
 
-(function () {
+var habitWidget = (function () {
 	var LatestHabit = React.createClass({
 		displayName: "LatestHabit",
 
@@ -165,7 +165,10 @@
 		}
 	});
 
-	// Render our parent component
-	React.render(React.createElement(Habit, { url: "http://willacton.com:8888/data" }), document.getElementById("habit-widget"));
+	return {
+		render: function render(id, url) {
+			return React.render(React.createElement(Habit, { url: url }), document.getElementById(id));
+		}
+	};
 })();
 //# sourceMappingURL=habit.js.map
