@@ -5,8 +5,8 @@ A neat little widget for showing off your HabitRPG stats.
 Simply clone the repo. You can start the server:
 
 ```
-~ $ cd habit-widget/server/
-~/habit-widget/server $ npm start
+$ cd habit-widget/server/
+$ npm start
 
 > habit-webhook@0.0.1 start /Users/will/Code/habit-widget/server
 > node build/index.js
