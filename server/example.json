@@ -1,0 +1,100 @@
+{
+    "direction": "up",
+    "task": {
+        "text": "Write code (personal)",
+        "challenge": {},
+        "attribute": "str",
+        "priority": 1,
+        "value": 1.6906448173223518,
+        "tags": {},
+        "notes": "",
+        "dateCreated": "2015-04-26T16:57:54.171Z",
+        "id": "584c1c35-9a21-4aa3-b810-d0144d434e14",
+        "down": false,
+        "up": true,
+        "history": [
+            {
+                "value": 2.386509196317869,
+                "date": "2015-04-26T16:57:56.332Z"
+            },
+            {
+                "value": 1.8864842179730388,
+                "date": "2015-05-02T04:47:50.333Z"
+            },
+            {
+                "value": 1.9623660130663714,
+                "date": 1433211199282
+            },
+            {
+                "value": 2.9253562257358428,
+                "date": 1434143474833
+            },
+            {
+                "value": 1.712772612541253,
+                "date": 1434335660625
+            },
+            {
+                "value": 1.417280449406394,
+                "date": 1434479567685
+            },
+            {
+                "value": 1.6906448173223518,
+                "date": 1434561585653
+            }
+        ],
+        "type": "habit"
+    },
+    "delta": 0.9820045926191547,
+    "user": {
+        "_id": "db8d3db1-5d72-403d-9fac-4e5b1f81d698",
+        "stats": {
+            "hp": 23.141429258948406,
+            "mp": 142,
+            "exp": 336.56684348788883,
+            "gp": 538.6065921149551,
+            "lvl": 27,
+            "class": "wizard",
+            "points": 0,
+            "str": 7,
+            "con": 6,
+            "int": 7,
+            "per": 7,
+            "buffs": {
+                "str": 0,
+                "int": 0,
+                "per": 0,
+                "con": 0,
+                "stealth": 0,
+                "streaks": false,
+                "snowball": false,
+                "spookDust": false,
+                "shinySeed": false
+            },
+            "training": {
+                "int": 0,
+                "per": 0,
+                "str": 0,
+                "con": 0
+            },
+            "filters": {},
+            "_tmp": {
+                "drop": {
+                    "canBuy": true,
+                    "value": 3,
+                    "key": "TigerCub",
+                    "type": "Egg",
+                    "dialog": "You've found a Tiger Cub Egg! Find a hatching potion to pour on this egg, and it will hatch into a fierce Tiger Cub."
+                }
+            }
+        },
+        "_tmp": {
+            "drop": {
+                "canBuy": true,
+                "value": 3,
+                "key": "TigerCub",
+                "type": "Egg",
+                "dialog": "You've found a Tiger Cub Egg! Find a hatching potion to pour on this egg, and it will hatch into a fierce Tiger Cub."
+            }
+        }
+    }
+}
