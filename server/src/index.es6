@@ -5,14 +5,14 @@ const fs = require('fs');
 const url = require('url');
 const port = process.argv[2] || 8888;
 
+let latestData = {};
 
 const routes = {
 	log(req, res) {
 		const log = fs.createWriteStream('./log', { flags: 'a' });
 
-		req.pipe(log, { end: false });
-
-		req.on('end', () => {
+		req.pipe(log, { end: false })
+			.on('end', () => {
 			res.writeHead(200);
 			res.end();
 			log.end('\n');
@@ -23,26 +23,30 @@ const routes = {
 	},
 
 	payload(req, res) {
-		res.writeHead(200);
+		let jsonPayload = '';
+		req.on('data', (chunk) => { jsonPayload += chunk; }); // chunk gets coerced to string
+		req.on('end', () => { latestData = JSON.parse(jsonPayload);});
+
+		res.writeHead(200, "OK", {'Content-Type': 'text/plain'});
 		res.end();
 	},
 
 	data(req, res) {
-		res.writeHead(200);
-		res.end();
+		res.writeHead(200, "OK", {'Content-Type': 'text/plain'});
+		res.end(JSON.stringify(latestData));
 	},
 
 	notFound(req, res) {
-		res.writeHead(404);
+		res.writeHead(404, {"Content-Type": "text/plain"});
 		res.end('404 not found');
 	}
 };
 
 
 http.createServer((req, res) => {
-	const route = url.parse(req.url).pathname.substr(1);
-	console.log(route);
 
+	// A simple router
+	const route = url.parse(req.url).pathname.substr(1);
 	try {
 		routes[route](req, res);
 	} catch (e) {

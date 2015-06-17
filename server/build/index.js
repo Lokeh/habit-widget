@@ -7,13 +7,13 @@ var fs = require('fs');
 var url = require('url');
 var port = process.argv[2] || 8888;
 
+var latestData = {};
+
 var routes = {
 	log: function log(req, res) {
 		var log = fs.createWriteStream('./log', { flags: 'a' });
 
-		req.pipe(log, { end: false });
-
-		req.on('end', function () {
+		req.pipe(log, { end: false }).on('end', function () {
 			res.writeHead(200);
 			res.end();
 			log.end('\n');
@@ -26,25 +26,33 @@ var routes = {
 	},
 
 	payload: function payload(req, res) {
-		res.writeHead(200);
+		var jsonPayload = '';
+		req.on('data', function (chunk) {
+			jsonPayload += chunk;
+		}); // chunk gets coerced to string
+		req.on('end', function () {
+			latestData = JSON.parse(jsonPayload);
+		});
+
+		res.writeHead(200, 'OK', { 'Content-Type': 'text/plain' });
 		res.end();
 	},
 
 	data: function data(req, res) {
-		res.writeHead(200);
-		res.end();
+		res.writeHead(200, 'OK', { 'Content-Type': 'text/plain' });
+		res.end(JSON.stringify(latestData));
 	},
 
 	notFound: function notFound(req, res) {
-		res.writeHead(404);
+		res.writeHead(404, { 'Content-Type': 'text/plain' });
 		res.end('404 not found');
 	}
 };
 
 http.createServer(function (req, res) {
-	var route = url.parse(req.url).pathname.substr(1);
-	console.log(route);
 
+	// A simple router
+	var route = url.parse(req.url).pathname.substr(1);
 	try {
 		routes[route](req, res);
 	} catch (e) {
