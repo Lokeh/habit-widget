@@ -11,33 +11,33 @@ var routes = {
 	log: function log(req, res) {
 		var log = fs.createWriteStream('./log', { flags: 'a' });
 
-		log.write('\n');
-		req.pipe(log); // automatically calls log.end??
+		req.pipe(log, { end: false });
 
 		req.on('end', function () {
 			res.writeHead(200);
 			res.end();
+			log.end('\n');
 		});
 
 		// This is here incase any errors occur
 		log.on('error', function (err) {
-			return console.log(err);
-		});
+			throw err;
+		}); // bubble up
 	},
 
 	payload: function payload(req, res) {
 		res.writeHead(200);
-		// res.end();
+		res.end();
 	},
 
 	data: function data(req, res) {
 		res.writeHead(200);
-		// res.end();
+		res.end();
 	},
 
 	notFound: function notFound(req, res) {
 		res.writeHead(404);
-		res.write('404 not found');
+		res.end('404 not found');
 	}
 };
 
@@ -51,10 +51,8 @@ http.createServer(function (req, res) {
 		if (e instanceof TypeError) {
 			routes.notFound(req, res);
 		} else {
-			throw e;
+			throw e; // bubble up to crash
 		}
-	} finally {
-		res.end();
 	}
 }).listen(parseInt(port, 10));
 

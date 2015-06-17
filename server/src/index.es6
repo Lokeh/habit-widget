@@ -10,31 +10,31 @@ const routes = {
 	log(req, res) {
 		const log = fs.createWriteStream('./log', { flags: 'a' });
 
-		log.write('\n');
-		req.pipe(log); // automatically calls log.end??
+		req.pipe(log, { end: false });
 
 		req.on('end', () => {
 			res.writeHead(200);
 			res.end();
+			log.end('\n');
 		});
 
 		// This is here incase any errors occur
-		log.on('error', (err) => console.log(err));
+		log.on('error', (err) => { throw err; }); // bubble up
 	},
 
 	payload(req, res) {
 		res.writeHead(200);
-		// res.end();
+		res.end();
 	},
 
 	data(req, res) {
 		res.writeHead(200);
-		// res.end();
+		res.end();
 	},
 
 	notFound(req, res) {
 		res.writeHead(404);
-		res.write('404 not found');
+		res.end('404 not found');
 	}
 };
 
@@ -50,10 +50,8 @@ http.createServer((req, res) => {
 			routes.notFound(req, res);
 		}
 		else {
-			throw e;
+			throw e; // bubble up to crash
 		}
-	} finally {
-		res.end();
 	}
 
 }).listen(parseInt(port, 10));
