@@ -1,2 +1,4 @@
 node_modules
 build/.module-cache
+npm-debug.log
+log
