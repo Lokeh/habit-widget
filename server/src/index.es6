@@ -63,16 +63,6 @@ http.createServer((req, res) => {
 	else {
 		routes.notFound(req, res);
 	}
-	// try {
-	// 	routes[route](req, res);
-	// } catch (e) {
-	// 	if (e instanceof TypeError) {
-	// 		routes.notFound(req, res);
-	// 	}
-	// 	else {
-	// 		throw e; // bubble up to crash
-	// 	}
-	// }
 
 }).listen(parseInt(port, 10));
 
