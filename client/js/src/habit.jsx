@@ -101,7 +101,6 @@
 		componentDidMount() {
 			console.log('mounted');
 			this.loadData(this.props.url);
-			// setInterval(function () { this.loadData(this.props.url); }.bind(this), this.props.interval);
 		},
 		render() {
 			return (

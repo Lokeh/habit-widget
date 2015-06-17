@@ -3,23 +3,10 @@
 "use strict";
 
 (function () {
-	// const byDate = (el1, el2) => {
-	// 	const h1len = el1.history.length;
-	// 	const h2len = el2.history.length;
-	// 	if (h1len === 0 && h2len === 0) return 0; // equal
-	// 	if (h1len === 0) return 1; // el1 less
-	// 	if (h2len === 0) return -1; // el2 less
-	// 	const a = new Date(el1.history[h1len-1].date);
-	// 	const b = new Date(el2.history[h2len-1].date);
-	// 	return a>b ? -1 : a<b ? 1 : 0;
-	// };
-
 	var LatestHabit = React.createClass({
 		displayName: "LatestHabit",
 
 		render: function render() {
-			// const latestHabit = this.props.habits.concat(this.props.dailys).sort(byDate)[0] || { text: 'Loading...' };
-			// if (latestHabit) console.log(latestHabit.history[latestHabit.history.length-1].date);
 			return React.createElement(
 				"div",
 				{ className: "habit-list" },
@@ -159,7 +146,6 @@
 		componentDidMount: function componentDidMount() {
 			console.log("mounted");
 			this.loadData(this.props.url);
-			// setInterval(function () { this.loadData(this.props.url); }.bind(this), this.props.interval);
 		},
 		render: function render() {
 			return React.createElement(
