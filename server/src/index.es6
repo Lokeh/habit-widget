@@ -34,7 +34,14 @@ const routes = {
 				res.end();
 			});
 		}
-		else if (req.method === 'OPTIONS') {
+		else {
+			res.writeHead(200, "OK", {'Content-Type': 'text/plain'});
+			res.end();
+		}
+	},
+
+	data(req, res) {
+		if (req.method === 'OPTIONS') {
 			var headers = {};
 			console.log('!OPTIONS');
 			// IE8 does not allow domains to be specified, just the *
@@ -48,16 +55,11 @@ const routes = {
 			res.end();
 		}
 		else {
-			res.writeHead(200, "OK", {'Content-Type': 'text/plain'});
-			res.end();
+			res.writeHead(200, "OK", {
+				'Content-Type': 'text/plain'
+			});
+			res.end(JSON.stringify(latestData));
 		}
-	},
-
-	data(req, res) {
-		res.writeHead(200, "OK", {
-			'Content-Type': 'text/plain'
-		});
-		res.end(JSON.stringify(latestData));
 	},
 
 	notFound(req, res) {
