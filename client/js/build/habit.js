@@ -180,6 +180,6 @@
 	});
 
 	// Render our parent component
-	React.render(React.createElement(Habit, { url: "http://localhost:8888/data" }), document.getElementById("habit-widget"));
+	React.render(React.createElement(Habit, { url: "http://willacton.com:8888/data" }), document.getElementById("habit-widget"));
 })();
 //# sourceMappingURL=habit.js.map

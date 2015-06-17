@@ -1,21 +1,8 @@
 
 // Create scope
 (function () {
-	// const byDate = (el1, el2) => {
-	// 	const h1len = el1.history.length;
-	// 	const h2len = el2.history.length;
-	// 	if (h1len === 0 && h2len === 0) return 0; // equal
-	// 	if (h1len === 0) return 1; // el1 less
-	// 	if (h2len === 0) return -1; // el2 less
-	// 	const a = new Date(el1.history[h1len-1].date);
-	// 	const b = new Date(el2.history[h2len-1].date);
-	// 	return a>b ? -1 : a<b ? 1 : 0;
-	// };
-
 	const LatestHabit = React.createClass({
 		render() {
-			// const latestHabit = this.props.habits.concat(this.props.dailys).sort(byDate)[0] || { text: 'Loading...' };
-			// if (latestHabit) console.log(latestHabit.history[latestHabit.history.length-1].date);
 			return (
 				<div className="habit-list">
 					Latest task completed:
@@ -134,7 +121,7 @@
 
 	// Render our parent component
 	React.render(
-		<Habit url="http://localhost:8888/data" />,
+		<Habit url="http://willacton.com:8888/data" />,
 		document.getElementById('habit-widget')
 	);
 })();
