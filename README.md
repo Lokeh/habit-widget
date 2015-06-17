@@ -33,6 +33,6 @@ And at the bottom of your body section:
 <div id="habit-widget"></div>
 <script src="js/build/habit.js"></script>
 <script>
-	habitWidget.render('habit-widget', 'http://mywebsite.com:8888/data');
+	habitWidget.render('habit-widget', 'My Habit RPG Username', 'http://mywebsite.com:8888/data');
 </script>
 ```

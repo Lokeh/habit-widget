@@ -128,7 +128,6 @@ var habitWidget = (function () {
 		},
 		getInitialState: function getInitialState() {
 			return {
-				profile: { name: "lilactown" },
 				task: { text: "Loading..." },
 				user: {
 					stats: {
@@ -154,7 +153,7 @@ var habitWidget = (function () {
 				React.createElement(
 					"div",
 					{ className: "profile-info" },
-					React.createElement(ProfileName, { name: this.state.profile.name }),
+					React.createElement(ProfileName, { name: this.props.name }),
 					React.createElement(LevelIndicator, { level: this.state.user.stats.lvl })
 				),
 				React.createElement(StatBar, { name: "hp", statValue: this.state.user.stats.hp, max: this.state.user.stats.maxHealth }),
@@ -166,8 +165,8 @@ var habitWidget = (function () {
 	});
 
 	return {
-		render: function render(id, url) {
-			return React.render(React.createElement(Habit, { url: url }), document.getElementById(id));
+		render: function render(id, name, url) {
+			return React.render(React.createElement(Habit, { url: url, name: name }), document.getElementById(id));
 		}
 	};
 })();

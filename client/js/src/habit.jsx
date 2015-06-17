@@ -83,7 +83,6 @@ const habitWidget = (function () {
 		},
 		getInitialState() {
 			return {
-				profile: { name: 'lilactown' },
 				task: { text: 'Loading...' },
 				user: {
 					stats: {
@@ -106,7 +105,7 @@ const habitWidget = (function () {
 			return (
 				<div className="panel">
 					<div className="profile-info">
-						<ProfileName name={this.state.profile.name} />
+						<ProfileName name={this.props.name} />
 						<LevelIndicator level={this.state.user.stats.lvl} />
 					</div>
 					<StatBar name="hp" statValue={this.state.user.stats.hp} max={this.state.user.stats.maxHealth} />
@@ -119,8 +118,8 @@ const habitWidget = (function () {
 	});
 
 	return {
-		render: (id, url) => React.render(
-			<Habit url={url} />,
+		render: (id, name, url) => React.render(
+			<Habit url={url} name={name} />,
 			document.getElementById(id)
 		)
 	};
