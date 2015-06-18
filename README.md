@@ -2,7 +2,17 @@
 
 A neat little widget for showing off your HabitRPG stats.
 
-Simply clone the repo. You can start the server:
+## Dependencies
+
+The client requires React >= v13.3 for DOM rendering and qwest >= v1.7.0 for AJAX requests. These can be installed using npm for now.
+
+The server does not require any 3rd party modules.
+
+The client source is written using JSX and both client and server are written in ES6. Therefore, Babel is used for transpiling from JSX/ES6 to ES5.1. Dev dependencies can be installed via npm and include grunt, grunt-bable, etc.
+
+## Installation
+
+First, simply clone the repo. You can start the server:
 
 ```
 $ cd habit-widget/server/
@@ -16,7 +26,14 @@ Server running at
 CTRL + C to shutdown
 ```
 
-On your site (or wherever you're putting this), include the `client` directory and put this in your head section:
+On your site (or wherever you're putting this), put the `client` directory in a convenient place. For now, it requires you to install the dependencies using npm (you could potentially use a CDN for React, I don't know of one for qwest):
+
+```
+$ cd /var/www/mysite/habit-widget/client
+$ npm install
+```
+
+Put this in your head section:
 
 ```html
 <!-- habit-widget scripts and styles -->
@@ -30,9 +47,14 @@ On your site (or wherever you're putting this), include the `client` directory a
 And at the bottom of your body section:
 
 ```html
-<div id="habit-widget"></div>
 <script src="js/build/habit.js"></script>
 <script>
 	habitWidget.render('habit-widget', 'My Habit RPG Username', 'http://mywebsite.com:8888/data');
 </script>
+```
+
+Now, wherever you so please, you can position your habit-widget!
+
+```html
+<div id="habit-widget"></div>
 ```
